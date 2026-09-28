@@ -1,0 +1,17 @@
+# R session files
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+
+# RStudio files
+.Rproj.user/
+
+# R package build output
+*.Rcheck/
+*.tar.gz
+
+# Local credentials and macOS files
+.Renviron
+.httr-oauth
+.DS_Store
