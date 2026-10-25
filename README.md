@@ -15,6 +15,7 @@ daimondstats/
   inst/extdata/  # Demonstration export
   tests/         # Base-R assertion and error tests
 analysis/        # Initial scorecard plot and its R script
+module 5/        # Player-level batting chart and its R script
 validation/      # Latest package check log
 ```
 
@@ -51,6 +52,16 @@ Run `Rscript analysis/scorecard-outcomes.R` from the repository root to reproduc
 the plot. This analysis script requires ggplot2; the package itself does not.
 The source CSV permits rebuilding the packaged dataset. Extracting the original
 app result additionally requires the saved source files described in the package.
+
+The Module 5 update uses a [player-level batting chart](module%205/Kim_Module5_batting_stats.png)
+and its [R script](module%205/Kim_Module5_batting_stats.R). It resolves the flagged
+flyout/lineout in an analysis copy before calling `calculate_batting_stats()`;
+the packaged dataset retains its original prediction and flag. Reproduce it
+from the repository root with ggplot2 installed:
+
+```sh
+Rscript "module 5/Kim_Module5_batting_stats.R"
+```
 
 ## Remaining work
 
