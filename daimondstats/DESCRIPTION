@@ -1,0 +1,14 @@
+Package: daimondstats
+Title: Personal Baseball Seasons and Situational Run Value
+Version: 0.0.2
+Authors@R: person("Woohyun", "Kim", email = "woodenkim92@gmail.com", role = c("aut", "cre"))
+Description: Compares a personal collection of baseball games with a reference
+    season through stratified resampling and evaluates verified plays using
+    run expectancy. Also imports reviewed scorecard CSV exports and calculates
+    batting statistics. Explicit validation helps prevent unresolved readings
+    and duplicated games from distorting results.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1.0)
+Config/roxygen2/version: 8.1.1

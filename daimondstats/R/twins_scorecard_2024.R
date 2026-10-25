@@ -1,0 +1,49 @@
+#' Minnesota Twins scorecard entries from April 29, 2024
+#'
+#' Thirty-five recorded plays involving 12 Twins players in their game against
+#' the Chicago White Sox. The play labels and confidence scores come from a
+#' saved dAImondInning scorecard result. Player names and comparison labels come
+#' from the MLB reference events stored with that result.
+#'
+#' @format A data frame with 35 rows and 10 columns:
+#' \describe{
+#'   \item{game_id}{Character. MLB game identifier, \code{"746804"}.}
+#'   \item{team}{Character. Batting team, \code{"Minnesota Twins"}.}
+#'   \item{player}{Character. Batter name from the matched MLB reference event.}
+#'   \item{inning}{Character. Inning label retained from the scorecard result.}
+#'   \item{play}{Character. Original canonical play label predicted by the app.}
+#'   \item{confidence}{Numeric. The app's play-classification score, between
+#'     zero and one; this is not a guarantee that the reading is correct.}
+#'   \item{needs_review}{Logical. TRUE when the app flagged the play, confidence
+#'     is missing, or the play label differs from its reference label.}
+#'   \item{game_date}{Date. Game date, April 29, 2024.}
+#'   \item{reference_play}{Character. Canonical play label in the cached MLB
+#'     reference event.}
+#'   \item{play_matches_reference}{Logical. Whether \code{play} equals
+#'     \code{reference_play}.}
+#' }
+#' @details
+#' Blank cells and bad-crop markers are excluded. Each retained cell has one
+#' reference event matched by its scorecard row and column. Rows follow the
+#' scorecard layout, not chronological play order. All 35 matched batter/inning
+#' pairs were checked against the app's cached MLB game feed.
+#'
+#' The original play predictions are retained. Thirty-four labels match the
+#' reference; Willi Castro's ninth-inning play is classified as \code{flyout}
+#' while the reference reports \code{lineout}. That row has
+#' \code{needs_review = TRUE}. The seven columns required by
+#' [calculate_batting_stats()] are included, but the flagged row must be reviewed
+#' before using that function. Base-out states required for RE24 are not included.
+#'
+#' @source
+#' dAImondInning saved result
+#' \code{uploads/7617d135a223/result_full.json}, extracted October 18, 2026.
+#' The corresponding MLB feed is cached as
+#' \code{data/mlb_cache/game_746804.json} in that app.
+#' MLB reference: \url{https://statsapi.mlb.com/api/v1.1/game/746804/feed/live}.
+#'
+#' @examples
+#' str(twins_scorecard_2024)
+#' subset(twins_scorecard_2024, needs_review,
+#'        select = c(player, inning, play, reference_play))
+"twins_scorecard_2024"

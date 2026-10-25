@@ -1,0 +1,36 @@
+game_id,team,player,inning,play,confidence,needs_review,game_date,reference_play,play_matches_reference
+746804,Minnesota Twins,Ryan Jeffers,1,flyout,0.9453,False,2024-04-29,flyout,True
+746804,Minnesota Twins,Ryan Jeffers,3,flyout,0.9492,False,2024-04-29,flyout,True
+746804,Minnesota Twins,Ryan Jeffers,6,walk,0.948,False,2024-04-29,walk,True
+746804,Minnesota Twins,Ryan Jeffers,8,flyout,0.946,False,2024-04-29,flyout,True
+746804,Minnesota Twins,Carlos Correa,1,groundout,0.9466,False,2024-04-29,groundout,True
+746804,Minnesota Twins,Carlos Correa,3,groundout,0.946,False,2024-04-29,groundout,True
+746804,Minnesota Twins,Carlos Correa,6,flyout,0.9426,False,2024-04-29,flyout,True
+746804,Minnesota Twins,Carlos Correa,8,strikeout_looking,0.9463,False,2024-04-29,strikeout_looking,True
+746804,Minnesota Twins,Jose F Miranda,1,strikeout,0.9508,False,2024-04-29,strikeout,True
+746804,Minnesota Twins,Jose F Miranda,3,groundout,0.9467,False,2024-04-29,groundout,True
+746804,Minnesota Twins,Edouard Julien,6,walk,0.9528,False,2024-04-29,walk,True
+746804,Minnesota Twins,Edouard Julien,8,groundout,0.946,False,2024-04-29,groundout,True
+746804,Minnesota Twins,Byron Buxton,2,strikeout_looking,0.9417,False,2024-04-29,strikeout_looking,True
+746804,Minnesota Twins,Byron Buxton,4,flyout,0.9464,False,2024-04-29,flyout,True
+746804,Minnesota Twins,Byron Buxton,6,flyout,0.9433,False,2024-04-29,flyout,True
+746804,Minnesota Twins,Byron Buxton,9,double,0.9373,False,2024-04-29,double,True
+746804,Minnesota Twins,Manuel Margot,2,walk,0.941,False,2024-04-29,walk,True
+746804,Minnesota Twins,Manuel Margot,4,strikeout,0.9446,False,2024-04-29,strikeout,True
+746804,Minnesota Twins,Max Kepler,6,groundout,0.9429,False,2024-04-29,groundout,True
+746804,Minnesota Twins,Max Kepler,9,single,0.9444,False,2024-04-29,single,True
+746804,Minnesota Twins,Carlos Santana,2,home_run,0.9439,False,2024-04-29,home_run,True
+746804,Minnesota Twins,Carlos Santana,4,strikeout,0.9492,False,2024-04-29,strikeout,True
+746804,Minnesota Twins,Carlos Santana,7,groundout,0.945,False,2024-04-29,groundout,True
+746804,Minnesota Twins,Carlos Santana,9,strikeout,0.9468,False,2024-04-29,strikeout,True
+746804,Minnesota Twins,Willi Castro,2,single,0.9448,False,2024-04-29,single,True
+746804,Minnesota Twins,Willi Castro,5,groundout,0.9446,False,2024-04-29,groundout,True
+746804,Minnesota Twins,Willi Castro,7,strikeout,0.9457,False,2024-04-29,strikeout,True
+746804,Minnesota Twins,Willi Castro,9,flyout,0.9443,True,2024-04-29,lineout,False
+746804,Minnesota Twins,Christian Vázquez,2,strikeout_looking,0.9473,False,2024-04-29,strikeout_looking,True
+746804,Minnesota Twins,Christian Vázquez,5,strikeout,0.9416,False,2024-04-29,strikeout,True
+746804,Minnesota Twins,Christian Vázquez,7,error,0.8846,False,2024-04-29,error,True
+746804,Minnesota Twins,Christian Vázquez,9,strikeout,0.9504,False,2024-04-29,strikeout,True
+746804,Minnesota Twins,Kyle Farmer,2,flyout,0.9474,False,2024-04-29,flyout,True
+746804,Minnesota Twins,Kyle Farmer,5,strikeout,0.9442,False,2024-04-29,strikeout,True
+746804,Minnesota Twins,Alex Kirilloff,7,groundout,0.9504,False,2024-04-29,groundout,True
