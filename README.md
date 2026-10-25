@@ -1,74 +1,92 @@
 # MSDS 457 final project: daimondstats
 
-Woohyun Kim's R package for personal scorebook analysis. The package is in
-[`daimondstats/`](daimondstats/README.md); version 0.0.2 is work in progress.
+Woohyun Kim's R package for personal scorebook analysis. The current package is
+[daimondstats 0.0.3](daimondstats/README.md).
 
-## Current structure
+[Module 5 progress update, two-page PDF](module%205/Kim_Final_Project_Progress_Update_v2.pdf)
+
+## Reviewed real-game collection
+
+The new `reviewed_scorecards` dataset contains **179 plate appearances from five
+team scorecards**, with 49 player/game combinations. Each included event was
+matched uniquely to an independently downloaded MLB game feed. Counting totals
+match the official box score for every included player and team. Ten exported
+labels were normalized, with original values and correction notes preserved.
+
+| Team | Date | PA | H | BB | HBP | OBP |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Minnesota Twins | 2024-04-29 | 35 | 4 | 3 | 0 | .200 |
+| New York Mets | 2026-04-11 | 41 | 10 | 4 | 0 | .341 |
+| Arizona Diamondbacks | 2026-06-15 | 35 | 8 | 3 | 1 | .343 |
+| Cleveland Guardians | 2026-06-17 | 33 | 3 | 3 | 0 | .182 |
+| St. Louis Cardinals | 2026-07-31 | 35 | 5 | 3 | 0 | .229 |
+
+![Batting outcomes in five reviewed scorecards](module%205/Kim_Module5_batting_stats.png)
+
+This is a small convenience collection across teams and seasons. The chart
+summarizes recorded games; it does not rank team strength or supply a complete
+reference season. OBP uses pooled counts within each game. The original Twins
+example remains available and overlaps the new collection.
+
+## Structure and reproduction
 
 ```text
 daimondstats/
   DESCRIPTION, NAMESPACE, LICENSE, README.md
-  R/             # Four exported functions and dataset documentation
+  R/             # Four public functions and three dataset documents
   man/           # Installed help
-  data/          # Real scorecard data and a separate fictional demo
-  data-raw/      # Source CSV and data preparation scripts
-  inst/extdata/  # Demonstration export
-  tests/         # Base-R assertion and error tests
-analysis/        # Initial scorecard plot and its R script
-module 5/        # Player-level batting chart and its R script
-validation/      # Latest package check log
+  data/          # Reviewed collection, original Twins example, fictional demo
+  data-raw/      # Source CSVs, audit, feed manifest, extraction/build scripts
+  inst/extdata/  # Independent official game/player counting fixtures
+  tests/         # Core, personal-season, and reviewed-data tests
+module 5/        # Updated chart, R script, numerical summary, progress PDF
+analysis/        # Earlier Week 4 inning plot and script
+validation/      # Package-check log and verification explanation
 ```
-
-The four functions import scorecard CSVs, calculate batting statistics,
-compare a personal game collection with a team season, and calculate RE24
-from verified event states and a supplied expectancy matrix. The package
-uses base R and requires R >= 4.1.0.
-
-## Install and check
 
 From the repository root:
 
 ```sh
 R CMD INSTALL daimondstats
 R CMD build daimondstats
-R CMD check --no-manual daimondstats_0.0.2.tar.gz
-```
-
-The October 24, 2026 check on R 4.5.1 finished with status OK, including both
-test scripts and examples. Network repository-index lookups were unavailable;
-the PDF manual was not checked. See [the log](validation/R-CMD-check.log).
-
-## Initial real-data analysis
-
-The Week 4 dataset contains 35 Twins scorecard entries from April 29, 2024.
-Four hits occur in innings 2 and 9, and five innings contain only outs.
-This describes one recorded game and does not establish a season-wide pattern.
-One flyout/lineout disagreement remains flagged; either label counts as an out
-in this plot. The dataset does not contain the states needed for RE24.
-
-![Recorded plate appearances by inning](analysis/scorecard-outcomes.png)
-
-Run `Rscript analysis/scorecard-outcomes.R` from the repository root to reproduce
-the plot. This analysis script requires ggplot2; the package itself does not.
-The source CSV permits rebuilding the packaged dataset. Extracting the original
-app result additionally requires the saved source files described in the package.
-
-The Module 5 update uses a [player-level batting chart](module%205/Kim_Module5_batting_stats.png)
-and its [R script](module%205/Kim_Module5_batting_stats.R). It resolves the flagged
-flyout/lineout in an analysis copy before calling `calculate_batting_stats()`;
-the packaged dataset retains its original prediction and flag. Reproduce it
-from the repository root with ggplot2 installed:
-
-```sh
+R CMD check --no-manual daimondstats_0.0.3.tar.gz
 Rscript "module 5/Kim_Module5_batting_stats.R"
 ```
 
+The chart script requires ggplot2; the package uses base R and requires R >= 4.1.0.
+[Chart source](module%205/Kim_Module5_batting_stats.R) and
+[numerical summary](module%205/Kim_Module5_game_summary.csv) are included.
+Rebuild the reviewed R dataset from its included CSV by running
+`Rscript data-raw/reviewed-scorecards.R` from the package root. The full source
+verification additionally requires the saved app results and downloaded feeds.
+
+## Verification and package checks
+
+The audit inspected 155 saved result files, including multi-card children:
+184 component cards, of which eleven had stored event references. Five passed
+complete event coverage, card review, and live MLB counting-total checks.
+Incomplete cards, extra detections, duplicate processing and unresolved scoring
+conflicts were excluded. Source exports may already contain contextual
+corrections; agreement is not an independent classifier-accuracy estimate.
+
+- [Audit decisions](daimondstats/data-raw/scorecard-audit.csv)
+- [Source and feed manifest with SHA-256 hashes](daimondstats/data-raw/verification-manifest.json)
+- [Verification explanation](validation/README.md)
+- [Official game totals](daimondstats/inst/extdata/reviewed_game_totals.csv)
+- [Official player totals](daimondstats/inst/extdata/reviewed_player_totals.csv)
+
+The October 25, 2026 `R CMD check --no-manual` on R 4.5.1 finished with
+**status OK**, including examples and all three test scripts.
+[Check log](validation/R-CMD-check.log). Repository-index access was unavailable;
+PDF manual generation was not checked.
+
 ## Remaining work
 
-Add complete real season and event data, document an appropriate expectancy
-matrix, validate the analytical functions on official records, write a vignette,
-and complete the final technical guide, nontechnical walkthroughs, and presentation.
-Season-comparison and RE24 examples currently use fictional inputs.
+Obtain a complete team reference season and verified base-out event data,
+document an appropriate expectancy matrix, validate the season-comparison and
+RE24 functions on real records, and finish the vignette, technical documentation,
+nontechnical walkthroughs, and presentation. Current season-comparison and RE24
+examples still use fictional inputs.
 
-AI assistance: An OpenAI assistant helped with implementation, tests,
-documentation, the plot, and the progress update.
+AI assistance: An OpenAI assistant helped with implementation, verification,
+tests, documentation, the chart, and the progress update.

@@ -1,6 +1,6 @@
 Package: daimondstats
 Title: Personal Baseball Seasons and Situational Run Value
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: person("Woohyun", "Kim", email = "woodenkim92@gmail.com", role = c("aut", "cre"))
 Description: Compares a personal collection of baseball games with a reference
     season through stratified resampling and evaluates verified plays using

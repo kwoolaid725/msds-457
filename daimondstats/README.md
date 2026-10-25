@@ -1,7 +1,8 @@
 # daimondstats
 
 An early R package for analyzing a fan's personal collection of baseball games.
-Version 0.0.2 adds personal-season comparisons and situational run value (RE24).
+Version 0.0.3 adds five reviewed team scorecards. Personal-season comparisons
+and situational run value (RE24) remain the analytical functions.
 The original scorecard importer and batting calculator remain supporting tools.
 It uses base R, with no extra runtime packages.
 
@@ -29,7 +30,47 @@ Their current examples and tests are fictional. A real scorecard dataset is
 included below. Season-wide feed adapters, documented historical reference
 matrices, and validation of RE24 on real events remain work for the next milestone.
 
-## Real scorecard data
+## Reviewed collection of five team scorecards
+
+`reviewed_scorecards` contains 179 plate appearances and 49 player/game rows.
+Event identities, complete team PA coverage, and each player's and team's
+counting totals were checked against independently retrieved MLB feeds on
+October 25, 2026. Team rates use pooled counts, not averages of player rates.
+
+| Team | Date | PA | H | BB | HBP | OBP |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Minnesota Twins | 2024-04-29 | 35 | 4 | 3 | 0 | .200 |
+| New York Mets | 2026-04-11 | 41 | 10 | 4 | 0 | .341 |
+| Arizona Diamondbacks | 2026-06-15 | 35 | 8 | 3 | 1 | .343 |
+| Cleveland Guardians | 2026-06-17 | 33 | 3 | 3 | 0 | .182 |
+| St. Louis Cardinals | 2026-07-31 | 35 | 5 | 3 | 0 | .229 |
+
+```r
+calculate_batting_stats(reviewed_scorecards)
+subset(reviewed_scorecards, play != source_play,
+       select = c(game_id, player, source_play, play, review_note))
+```
+
+Ten exported labels were normalized after review. Original labels, confidence
+scores, source cell/result IDs, flags and correction notes are retained. Force
+outs where the batter reaches first are fielder choices. Saved exports may
+already contain contextual corrections, so agreement does not measure classifier
+accuracy. The audit covers 155 saved result files and 184 component cards,
+including children of multi-card uploads. Eleven had event-level references;
+five were accepted. Incomplete cards, extra detections, duplicate processing,
+unresolved identities and a card/MLB single-versus-error conflict were excluded.
+
+See `data-raw/scorecard-audit.csv`, `verification-manifest.json`, and
+`verify-scorecards.py`. The manifest records feed URLs and SHA-256 hashes.
+Rebuild the R data using `Rscript data-raw/reviewed-scorecards.R`. A full audit
+also requires the original app results and downloaded feeds. Those are not
+needed for installation or tests; source CSVs and official counting fixtures
+are included. This small collection spans teams and seasons, not a complete
+reference season or a ranking of team strength. Base-out states for RE24 are
+not included. The original Twins dataset overlaps this collection; deduplicate
+that game before combining them.
+
+## Original real scorecard example
 
 `twins_scorecard_2024` contains 35 recorded plays involving 12 Minnesota Twins
 players against the Chicago White Sox on April 29, 2024. It was extracted from
@@ -102,12 +143,12 @@ other event types require further work.
 All four public functions have roxygen comments in `R/` and matching installed
 help files in `man/`. The initial Rd files are maintained alongside the comments;
 roxygen2 generation can replace them when that development dependency is added.
-`tests/core.R` and `tests/personal-season.R` use base-R assertions and error
+`tests/core.R`, `tests/personal-season.R`, and `tests/reviewed-data.R` use base-R assertions and error
 checks. No test framework is required.
 
 ```sh
 R CMD build daimondstats
-R CMD check --no-manual daimondstats_0.0.2.tar.gz
+R CMD check --no-manual daimondstats_0.0.3.tar.gz
 ```
 
 The suite checks hand-calculated outcomes, every supported play category,
@@ -118,12 +159,16 @@ constant reference distributions, duplicate IDs, verified-event requirements,
 inning-ending RE24, and the complete-inning run-value identity.
 
 Build and `R CMD check --no-manual` completed with final status **OK** on
-October 24, 2026, using R 4.5.1, including examples and both test scripts.
+October 25, 2026, using R 4.5.1, including examples and all three test scripts.
 Repository-index lookups were unavailable; PDF manual generation was not checked.
 The real dataset's UTF-8 encoding was corrected before this check, preserving
 all data values and the accented player name.
 
-Still planned: additional reviewed games and official-record comparisons,
+The reviewed-data tests compare all 49 player/game rows and five team totals
+with independent MLB box-score counts, including HBP and sacrifice fly
+treatment, event-ID uniqueness, and weighted team OBP.
+
+Still planned: larger reviewed collections and complete reference seasons,
 documented expectancy data, cautious scorebook-pattern discovery, a plot function,
 a vignette, and the final project guides. WPA and lineup
 simulation are later possibilities. This is not the completed final package.

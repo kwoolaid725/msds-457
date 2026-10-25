@@ -1,0 +1,69 @@
+{
+  "verified_on": "2026-10-25",
+  "saved_results": 155,
+  "component_cards": 184,
+  "cards_with_references": 11,
+  "accepted": [
+    {
+      "game_id": 825071,
+      "source_result": "09a49fc97cd5",
+      "side": "home",
+      "date": "2026-06-15",
+      "feed_url": "https://statsapi.mlb.com/api/v1.1/game/825071/feed/live",
+      "feed_sha256": "fe9466e47104660e100c4e7c2bcb008bdc3490b117b0c6c687986dcebada2339",
+      "result_sha256": "f671b68099809b6acddeb5e79c5a0ccad5ed43b1047822d4e8cad7cd74e86710",
+      "verified_on": "2026-10-25",
+      "pa": 35,
+      "source_label_changes": 0
+    },
+    {
+      "game_id": 822782,
+      "source_result": "5d18c8b00122",
+      "side": "away",
+      "date": "2026-07-31",
+      "feed_url": "https://statsapi.mlb.com/api/v1.1/game/822782/feed/live",
+      "feed_sha256": "60d6d93a1435245b19d943a9061c5e2b237913aa0ab986dff2e628dc3112a3fb",
+      "result_sha256": "086427234da0b19e3abf49a23af90b6695b51701946cf572c1802187918ea3c9",
+      "verified_on": "2026-10-25",
+      "pa": 35,
+      "source_label_changes": 0
+    },
+    {
+      "game_id": 746804,
+      "source_result": "7617d135a223",
+      "side": "away",
+      "date": "2024-04-29",
+      "feed_url": "https://statsapi.mlb.com/api/v1.1/game/746804/feed/live",
+      "feed_sha256": "2d652fd581581388cbe7f9a72d1c9857b0aa73972f478802d2fa8091e048a109",
+      "result_sha256": "e9a6c056e072e600bb64b10505f3c43e1490de2baf05de6ac4ba3c37827ff3e8",
+      "verified_on": "2026-10-25",
+      "pa": 35,
+      "source_label_changes": 1
+    },
+    {
+      "game_id": 823774,
+      "source_result": "b1650de36896",
+      "side": "away",
+      "date": "2026-06-17",
+      "feed_url": "https://statsapi.mlb.com/api/v1.1/game/823774/feed/live",
+      "feed_sha256": "1ab7ba70d5748d3be2ff3d1fb54dcb3742b4bb3f4d5310d5ad53120cf94c46a3",
+      "result_sha256": "4bffa41ca77246589ea9a0c86fd29deaa3558caac604077c0635b26fa5a54ed1",
+      "verified_on": "2026-10-25",
+      "pa": 33,
+      "source_label_changes": 2
+    },
+    {
+      "game_id": 823644,
+      "source_result": "ba3de17ca246/scorecard_2",
+      "side": "home",
+      "date": "2026-04-11",
+      "feed_url": "https://statsapi.mlb.com/api/v1.1/game/823644/feed/live",
+      "feed_sha256": "5ca958404a3e606086b3db70dd407a426bec4e43b642cbd7a01358b5dac8b4b6",
+      "result_sha256": "de936327af3edb1f3a2c790f5135cdb5fe0808f0667f54b11634bbcda5ce5d4f",
+      "verified_on": "2026-10-25",
+      "pa": 41,
+      "source_label_changes": 7
+    }
+  ],
+  "method": "Card review plus unique batter/inning/description matching and live MLB box-score counts; not a model-accuracy evaluation."
+}

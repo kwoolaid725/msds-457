@@ -1,0 +1,6 @@
+"game_id","team","PA","AB","H","BB","HBP","SF","SH","CI","TB","game_date","opponent","OBP","SLG"
+"746804","Minnesota Twins",35,32,4,3,0,0,0,0,8,2024-04-29,"Chicago White Sox",0.2,0.25
+"822782","St. Louis Cardinals",35,32,5,3,0,0,0,0,6,2026-07-31,"Toronto Blue Jays",0.228571428571429,0.1875
+"823644","New York Mets",41,36,10,4,0,1,0,0,19,2026-04-11,"Athletics",0.341463414634146,0.527777777777778
+"823774","Cleveland Guardians",33,30,3,3,0,0,0,0,7,2026-06-17,"Milwaukee Brewers",0.181818181818182,0.233333333333333
+"825071","Arizona Diamondbacks",35,31,8,3,1,0,0,0,12,2026-06-15,"Los Angeles Angels",0.342857142857143,0.387096774193548

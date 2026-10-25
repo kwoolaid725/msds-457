@@ -1,0 +1,180 @@
+game_id,team,player,inning,play,confidence,needs_review,game_date,side,opponent,batter_id,event_id,source_result,source_cell,source_play,source_needs_review,reference_play,review_note
+825071,Arizona Diamondbacks,Ketel Marte,1,flyout,0.949,FALSE,2026-06-15,home,Los Angeles Angels,606466,5,09a49fc97cd5,r1c1,flyout,FALSE,flyout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Ketel Marte,3,groundout,0.9465,FALSE,2026-06-15,home,Los Angeles Angels,606466,23,09a49fc97cd5,r1c3,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Ketel Marte,5,groundout,0.9493,FALSE,2026-06-15,home,Los Angeles Angels,606466,40,09a49fc97cd5,r1c5,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Ketel Marte,7,single,0.9509,FALSE,2026-06-15,home,Los Angeles Angels,606466,56,09a49fc97cd5,r1c7,single,FALSE,single,Matched to the MLB event.
+825071,Arizona Diamondbacks,Geraldo Perdomo,1,walk,0.9479,FALSE,2026-06-15,home,Los Angeles Angels,672695,6,09a49fc97cd5,r2c1,walk,FALSE,walk,Matched to the MLB event.
+825071,Arizona Diamondbacks,Geraldo Perdomo,3,lineout,0.9446,FALSE,2026-06-15,home,Los Angeles Angels,672695,24,09a49fc97cd5,r2c3,lineout,FALSE,lineout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Geraldo Perdomo,5,walk,0.9501,FALSE,2026-06-15,home,Los Angeles Angels,672695,41,09a49fc97cd5,r2c5,walk,FALSE,walk,Matched to the MLB event.
+825071,Arizona Diamondbacks,Geraldo Perdomo,7,double,0.945,FALSE,2026-06-15,home,Los Angeles Angels,672695,57,09a49fc97cd5,r2c7,double,FALSE,double,Matched to the MLB event.
+825071,Arizona Diamondbacks,Corbin Carroll,1,flyout,0.9473,FALSE,2026-06-15,home,Los Angeles Angels,682998,7,09a49fc97cd5,r3c1,flyout,FALSE,flyout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Corbin Carroll,4,single,0.9495,FALSE,2026-06-15,home,Los Angeles Angels,682998,28,09a49fc97cd5,r3c4,single,FALSE,single,Matched to the MLB event.
+825071,Arizona Diamondbacks,Corbin Carroll,5,groundout,0.9437,FALSE,2026-06-15,home,Los Angeles Angels,682998,42,09a49fc97cd5,r3c5,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Corbin Carroll,7,groundout,0.9487,FALSE,2026-06-15,home,Los Angeles Angels,682998,58,09a49fc97cd5,r3c7,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Gabriel Moreno,1,single,0.9487,FALSE,2026-06-15,home,Los Angeles Angels,672515,8,09a49fc97cd5,r4c1,single,FALSE,single,Matched to the MLB event.
+825071,Arizona Diamondbacks,Gabriel Moreno,4,groundout,0.9464,FALSE,2026-06-15,home,Los Angeles Angels,672515,29,09a49fc97cd5,r4c4,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Gabriel Moreno,6,groundout,0.9477,FALSE,2026-06-15,home,Los Angeles Angels,672515,47,09a49fc97cd5,r4c6,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Gabriel Moreno,8,groundout,0.9483,FALSE,2026-06-15,home,Los Angeles Angels,672515,62,09a49fc97cd5,r4c8,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Lourdes Gurriel Jr.,1,lineout,0.9473,FALSE,2026-06-15,home,Los Angeles Angels,666971,9,09a49fc97cd5,r5c1,lineout,FALSE,lineout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Lourdes Gurriel Jr.,4,single,0.9465,FALSE,2026-06-15,home,Los Angeles Angels,666971,30,09a49fc97cd5,r5c4,single,FALSE,single,Matched to the MLB event.
+825071,Arizona Diamondbacks,Lourdes Gurriel Jr.,6,flyout,0.9447,FALSE,2026-06-15,home,Los Angeles Angels,666971,48,09a49fc97cd5,r5c6,flyout,FALSE,flyout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Lourdes Gurriel Jr.,8,groundout,0.9452,FALSE,2026-06-15,home,Los Angeles Angels,666971,63,09a49fc97cd5,r5c8,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Nolan Arenado,2,flyout,0.9466,FALSE,2026-06-15,home,Los Angeles Angels,571448,14,09a49fc97cd5,r6c2,flyout,FALSE,flyout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Nolan Arenado,4,flyout,0.9449,FALSE,2026-06-15,home,Los Angeles Angels,571448,31,09a49fc97cd5,r6c4,flyout,FALSE,flyout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Nolan Arenado,6,strikeout,0.949,FALSE,2026-06-15,home,Los Angeles Angels,571448,49,09a49fc97cd5,r6c6,strikeout,FALSE,strikeout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Nolan Arenado,8,single,0.9485,FALSE,2026-06-15,home,Los Angeles Angels,571448,64,09a49fc97cd5,r6c8,single,FALSE,single,Matched to the MLB event.
+825071,Arizona Diamondbacks,Jordan Lawlar,2,strikeout,0.9518,FALSE,2026-06-15,home,Los Angeles Angels,691783,15,09a49fc97cd5,r7c2,strikeout,FALSE,strikeout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Jordan Lawlar,4,groundout,0.9477,FALSE,2026-06-15,home,Los Angeles Angels,691783,32,09a49fc97cd5,r7c4,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Jordan Lawlar,7,hit_by_pitch,0.9495,FALSE,2026-06-15,home,Los Angeles Angels,691783,53,09a49fc97cd5,r7c7,hit_by_pitch,FALSE,hit_by_pitch,Matched to the MLB event.
+825071,Arizona Diamondbacks,Jordan Lawlar,8,walk,0.9496,FALSE,2026-06-15,home,Los Angeles Angels,691783,65,09a49fc97cd5,r7c8,walk,FALSE,walk,Matched to the MLB event.
+825071,Arizona Diamondbacks,Pavin Smith,2,strikeout,0.9477,FALSE,2026-06-15,home,Los Angeles Angels,656976,16,09a49fc97cd5,r8c2,strikeout,FALSE,strikeout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Pavin Smith,5,single,0.9495,FALSE,2026-06-15,home,Los Angeles Angels,656976,38,09a49fc97cd5,r8c5,single,FALSE,single,Matched to the MLB event.
+825071,Arizona Diamondbacks,Pavin Smith,7,home_run,0.946,FALSE,2026-06-15,home,Los Angeles Angels,656976,54,09a49fc97cd5,r8c7,home_run,FALSE,home_run,Matched to the MLB event.
+825071,Arizona Diamondbacks,Pavin Smith,8,groundout,0.9463,FALSE,2026-06-15,home,Los Angeles Angels,656976,66,09a49fc97cd5,r8c8,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Tommy Troy,3,groundout,0.9439,FALSE,2026-06-15,home,Los Angeles Angels,694371,22,09a49fc97cd5,r9c3,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Tommy Troy,5,groundout,0.9483,FALSE,2026-06-15,home,Los Angeles Angels,694371,39,09a49fc97cd5,r9c5,groundout,FALSE,groundout,Matched to the MLB event.
+825071,Arizona Diamondbacks,Tommy Troy,7,groundout,0.9433,FALSE,2026-06-15,home,Los Angeles Angels,694371,55,09a49fc97cd5,r9c7,groundout,FALSE,groundout,Matched to the MLB event.
+822782,St. Louis Cardinals,JJ Wetherholt,1,flyout,0.9457,FALSE,2026-07-31,away,Toronto Blue Jays,802139,0,5d18c8b00122,r1c1,flyout,FALSE,flyout,Matched to the MLB event.
+822782,St. Louis Cardinals,JJ Wetherholt,3,lineout,0.9446,FALSE,2026-07-31,away,Toronto Blue Jays,802139,15,5d18c8b00122,r1c3,lineout,FALSE,lineout,Matched to the MLB event.
+822782,St. Louis Cardinals,JJ Wetherholt,5,walk,0.9454,FALSE,2026-07-31,away,Toronto Blue Jays,802139,32,5d18c8b00122,r1c5,walk,FALSE,walk,Matched to the MLB event.
+822782,St. Louis Cardinals,JJ Wetherholt,7,strikeout,0.9496,FALSE,2026-07-31,away,Toronto Blue Jays,802139,51,5d18c8b00122,r1c7,strikeout,FALSE,strikeout,Matched to the MLB event.
+822782,St. Louis Cardinals,Jordan Walker,1,strikeout,0.9479,FALSE,2026-07-31,away,Toronto Blue Jays,691023,1,5d18c8b00122,r2c1,strikeout,FALSE,strikeout,Matched to the MLB event.
+822782,St. Louis Cardinals,Jordan Walker,3,flyout,0.9458,FALSE,2026-07-31,away,Toronto Blue Jays,691023,16,5d18c8b00122,r2c3,flyout,FALSE,flyout,Matched to the MLB event.
+822782,St. Louis Cardinals,Jordan Walker,5,single,0.9482,FALSE,2026-07-31,away,Toronto Blue Jays,691023,33,5d18c8b00122,r2c5,single,FALSE,single,Matched to the MLB event.
+822782,St. Louis Cardinals,Jordan Walker,8,strikeout,0.9463,FALSE,2026-07-31,away,Toronto Blue Jays,691023,57,5d18c8b00122,r2c8,strikeout,FALSE,strikeout,Matched to the MLB event.
+822782,St. Louis Cardinals,Alec Burleson,1,walk,0.9467,FALSE,2026-07-31,away,Toronto Blue Jays,676475,2,5d18c8b00122,r3c1,walk,FALSE,walk,Matched to the MLB event.
+822782,St. Louis Cardinals,Alec Burleson,4,double,0.9475,FALSE,2026-07-31,away,Toronto Blue Jays,676475,22,5d18c8b00122,r3c4,double,FALSE,double,Matched to the MLB event.
+822782,St. Louis Cardinals,Alec Burleson,5,strikeout,0.9471,FALSE,2026-07-31,away,Toronto Blue Jays,676475,34,5d18c8b00122,r3c5,strikeout,FALSE,strikeout,Matched to the MLB event.
+822782,St. Louis Cardinals,Alec Burleson,8,strikeout,0.949,FALSE,2026-07-31,away,Toronto Blue Jays,676475,58,5d18c8b00122,r3c8,strikeout,FALSE,strikeout,Matched to the MLB event.
+822782,St. Louis Cardinals,Iván Herrera,1,strikeout,0.9499,FALSE,2026-07-31,away,Toronto Blue Jays,671056,3,5d18c8b00122,r4c1,strikeout,FALSE,strikeout,Matched to the MLB event.
+822782,St. Louis Cardinals,Iván Herrera,4,groundout,0.941,FALSE,2026-07-31,away,Toronto Blue Jays,671056,23,5d18c8b00122,r4c4,groundout,FALSE,groundout,Matched to the MLB event.
+822782,St. Louis Cardinals,Iván Herrera,6,groundout,0.9465,FALSE,2026-07-31,away,Toronto Blue Jays,671056,40,5d18c8b00122,r4c6,groundout,FALSE,groundout,Matched to the MLB event.
+822782,St. Louis Cardinals,Iván Herrera,8,groundout,0.948,FALSE,2026-07-31,away,Toronto Blue Jays,671056,59,5d18c8b00122,r4c8,groundout,FALSE,groundout,Matched to the MLB event.
+822782,St. Louis Cardinals,Lars Nootbaar,2,groundout,0.9533,FALSE,2026-07-31,away,Toronto Blue Jays,663457,7,5d18c8b00122,r5c2,groundout,FALSE,groundout,Matched to the MLB event.
+822782,St. Louis Cardinals,Lars Nootbaar,4,strikeout,0.9494,FALSE,2026-07-31,away,Toronto Blue Jays,663457,24,5d18c8b00122,r5c4,strikeout,FALSE,strikeout,Matched to the MLB event.
+822782,St. Louis Cardinals,Lars Nootbaar,6,groundout,0.9505,FALSE,2026-07-31,away,Toronto Blue Jays,663457,41,5d18c8b00122,r5c6,groundout,FALSE,groundout,Matched to the MLB event.
+822782,St. Louis Cardinals,Lars Nootbaar,9,groundout,0.953,FALSE,2026-07-31,away,Toronto Blue Jays,663457,66,5d18c8b00122,r5c9,groundout,FALSE,groundout,Matched to the MLB event.
+822782,St. Louis Cardinals,Masyn Winn,2,walk,0.9428,FALSE,2026-07-31,away,Toronto Blue Jays,691026,8,5d18c8b00122,r6c2,walk,FALSE,walk,Matched to the MLB event.
+822782,St. Louis Cardinals,Masyn Winn,4,groundout,0.9438,FALSE,2026-07-31,away,Toronto Blue Jays,691026,25,5d18c8b00122,r6c4,groundout,FALSE,groundout,Matched to the MLB event.
+822782,St. Louis Cardinals,Masyn Winn,6,strikeout,0.9474,FALSE,2026-07-31,away,Toronto Blue Jays,691026,42,5d18c8b00122,r6c6,strikeout,FALSE,strikeout,Matched to the MLB event.
+822782,St. Louis Cardinals,Masyn Winn,9,single,0.947,FALSE,2026-07-31,away,Toronto Blue Jays,691026,67,5d18c8b00122,r6c9,single,FALSE,single,Matched to the MLB event.
+822782,St. Louis Cardinals,Nathan Church,2,strikeout,0.9468,FALSE,2026-07-31,away,Toronto Blue Jays,701675,9,5d18c8b00122,r7c2,strikeout,FALSE,strikeout,Matched to the MLB event.
+822782,St. Louis Cardinals,Nathan Church,5,single,0.9514,FALSE,2026-07-31,away,Toronto Blue Jays,701675,29,5d18c8b00122,r7c5,single,FALSE,single,Matched to the MLB event.
+822782,St. Louis Cardinals,Nathan Church,7,single,0.9498,FALSE,2026-07-31,away,Toronto Blue Jays,701675,48,5d18c8b00122,r7c7,single,FALSE,single,Matched to the MLB event.
+822782,St. Louis Cardinals,Nathan Church,9,flyout,0.9497,FALSE,2026-07-31,away,Toronto Blue Jays,701675,68,5d18c8b00122,r7c9,flyout,FALSE,flyout,Matched to the MLB event.
+822782,St. Louis Cardinals,José Fermín,2,lineout,0.9509,FALSE,2026-07-31,away,Toronto Blue Jays,665877,10,5d18c8b00122,r8c2,lineout,FALSE,lineout,Matched to the MLB event.
+822782,St. Louis Cardinals,José Fermín,5,groundout,0.9438,FALSE,2026-07-31,away,Toronto Blue Jays,665877,30,5d18c8b00122,r8c5,groundout,FALSE,groundout,Matched to the MLB event.
+822782,St. Louis Cardinals,José Fermín,7,groundout,0.9489,FALSE,2026-07-31,away,Toronto Blue Jays,665877,49,5d18c8b00122,r8c7,groundout,FALSE,groundout,Matched to the MLB event.
+822782,St. Louis Cardinals,José Fermín,9,fielder's_choice,0.9431,FALSE,2026-07-31,away,Toronto Blue Jays,665877,69,5d18c8b00122,r8c9,fielder's_choice,TRUE,fielder's_choice,Force out retained as fielder choice; cached groundout label corrected.
+822782,St. Louis Cardinals,Jimmy Crooks,3,flyout,0.9494,FALSE,2026-07-31,away,Toronto Blue Jays,699625,14,5d18c8b00122,r9c3,flyout,FALSE,flyout,Matched to the MLB event.
+822782,St. Louis Cardinals,Jimmy Crooks,5,strikeout,0.947,FALSE,2026-07-31,away,Toronto Blue Jays,699625,31,5d18c8b00122,r9c5,strikeout,FALSE,strikeout,Matched to the MLB event.
+822782,St. Louis Cardinals,Jimmy Crooks,7,strikeout,0.9449,FALSE,2026-07-31,away,Toronto Blue Jays,699625,50,5d18c8b00122,r9c7,strikeout,FALSE,strikeout,Matched to the MLB event.
+746804,Minnesota Twins,Ryan Jeffers,1,flyout,0.9453,FALSE,2024-04-29,away,Chicago White Sox,680777,0,7617d135a223,r1c1,flyout,FALSE,flyout,Matched to the MLB event.
+746804,Minnesota Twins,Ryan Jeffers,3,flyout,0.9492,FALSE,2024-04-29,away,Chicago White Sox,680777,17,7617d135a223,r1c3,flyout,FALSE,flyout,Matched to the MLB event.
+746804,Minnesota Twins,Ryan Jeffers,6,walk,0.948,FALSE,2024-04-29,away,Chicago White Sox,680777,38,7617d135a223,r1c6,walk,FALSE,walk,Matched to the MLB event.
+746804,Minnesota Twins,Ryan Jeffers,8,flyout,0.946,FALSE,2024-04-29,away,Chicago White Sox,680777,53,7617d135a223,r1c8,flyout,FALSE,flyout,Matched to the MLB event.
+746804,Minnesota Twins,Carlos Correa,1,groundout,0.9466,FALSE,2024-04-29,away,Chicago White Sox,621043,1,7617d135a223,r2c1,groundout,FALSE,groundout,Matched to the MLB event.
+746804,Minnesota Twins,Carlos Correa,3,groundout,0.946,FALSE,2024-04-29,away,Chicago White Sox,621043,18,7617d135a223,r2c3,groundout,FALSE,groundout,Matched to the MLB event.
+746804,Minnesota Twins,Carlos Correa,6,flyout,0.9426,FALSE,2024-04-29,away,Chicago White Sox,621043,39,7617d135a223,r2c6,flyout,FALSE,flyout,Matched to the MLB event.
+746804,Minnesota Twins,Carlos Correa,8,strikeout_looking,0.9463,FALSE,2024-04-29,away,Chicago White Sox,621043,54,7617d135a223,r2c8,strikeout_looking,FALSE,strikeout_looking,Matched to the MLB event.
+746804,Minnesota Twins,Jose F Miranda,1,strikeout,0.9508,FALSE,2024-04-29,away,Chicago White Sox,669304,2,7617d135a223,r3c1,strikeout,FALSE,strikeout,Matched to the MLB event.
+746804,Minnesota Twins,Jose F Miranda,3,groundout,0.9467,FALSE,2024-04-29,away,Chicago White Sox,669304,19,7617d135a223,r3c3,groundout,FALSE,groundout,Matched to the MLB event.
+746804,Minnesota Twins,Edouard Julien,6,walk,0.9528,FALSE,2024-04-29,away,Chicago White Sox,666397,40,7617d135a223,r3c6,walk,FALSE,walk,Matched to the MLB event.
+746804,Minnesota Twins,Edouard Julien,8,groundout,0.946,FALSE,2024-04-29,away,Chicago White Sox,666397,55,7617d135a223,r3c8,groundout,FALSE,groundout,Matched to the MLB event.
+746804,Minnesota Twins,Byron Buxton,2,strikeout_looking,0.9417,FALSE,2024-04-29,away,Chicago White Sox,621439,8,7617d135a223,r4c2,strikeout_looking,FALSE,strikeout_looking,Matched to the MLB event.
+746804,Minnesota Twins,Byron Buxton,4,flyout,0.9464,FALSE,2024-04-29,away,Chicago White Sox,621439,24,7617d135a223,r4c4,flyout,FALSE,flyout,Matched to the MLB event.
+746804,Minnesota Twins,Byron Buxton,6,flyout,0.9433,FALSE,2024-04-29,away,Chicago White Sox,621439,41,7617d135a223,r4c6,flyout,FALSE,flyout,Matched to the MLB event.
+746804,Minnesota Twins,Byron Buxton,9,double,0.9373,FALSE,2024-04-29,away,Chicago White Sox,621439,61,7617d135a223,r4c9,double,FALSE,double,Matched to the MLB event.
+746804,Minnesota Twins,Manuel Margot,2,walk,0.941,FALSE,2024-04-29,away,Chicago White Sox,622534,9,7617d135a223,r5c2,walk,FALSE,walk,Matched to the MLB event.
+746804,Minnesota Twins,Manuel Margot,4,strikeout,0.9446,FALSE,2024-04-29,away,Chicago White Sox,622534,25,7617d135a223,r5c4,strikeout,FALSE,strikeout,Matched to the MLB event.
+746804,Minnesota Twins,Max Kepler,6,groundout,0.9429,FALSE,2024-04-29,away,Chicago White Sox,596146,42,7617d135a223,r5c6,groundout,FALSE,groundout,Matched to the MLB event.
+746804,Minnesota Twins,Max Kepler,9,single,0.9444,FALSE,2024-04-29,away,Chicago White Sox,596146,62,7617d135a223,r5c9,single,FALSE,single,Matched to the MLB event.
+746804,Minnesota Twins,Carlos Santana,2,home_run,0.9439,FALSE,2024-04-29,away,Chicago White Sox,467793,10,7617d135a223,r6c2,home_run,FALSE,home_run,Matched to the MLB event.
+746804,Minnesota Twins,Carlos Santana,4,strikeout,0.9492,FALSE,2024-04-29,away,Chicago White Sox,467793,26,7617d135a223,r6c4,strikeout,FALSE,strikeout,Matched to the MLB event.
+746804,Minnesota Twins,Carlos Santana,7,groundout,0.945,FALSE,2024-04-29,away,Chicago White Sox,467793,46,7617d135a223,r6c7,groundout,FALSE,groundout,Matched to the MLB event.
+746804,Minnesota Twins,Carlos Santana,9,strikeout,0.9468,FALSE,2024-04-29,away,Chicago White Sox,467793,63,7617d135a223,r6c9,strikeout,FALSE,strikeout,Matched to the MLB event.
+746804,Minnesota Twins,Willi Castro,2,single,0.9448,FALSE,2024-04-29,away,Chicago White Sox,650489,11,7617d135a223,r7c2,single,FALSE,single,Matched to the MLB event.
+746804,Minnesota Twins,Willi Castro,5,groundout,0.9446,FALSE,2024-04-29,away,Chicago White Sox,650489,32,7617d135a223,r7c5,groundout,FALSE,groundout,Matched to the MLB event.
+746804,Minnesota Twins,Willi Castro,7,strikeout,0.9457,FALSE,2024-04-29,away,Chicago White Sox,650489,47,7617d135a223,r7c7,strikeout,FALSE,strikeout,Matched to the MLB event.
+746804,Minnesota Twins,Willi Castro,9,lineout,0.9443,FALSE,2024-04-29,away,Chicago White Sox,650489,64,7617d135a223,r7c9,flyout,TRUE,lineout,Official lineout; card records an out as F8.
+746804,Minnesota Twins,Christian Vázquez,2,strikeout_looking,0.9473,FALSE,2024-04-29,away,Chicago White Sox,543877,12,7617d135a223,r8c2,strikeout_looking,FALSE,strikeout_looking,Matched to the MLB event.
+746804,Minnesota Twins,Christian Vázquez,5,strikeout,0.9416,FALSE,2024-04-29,away,Chicago White Sox,543877,33,7617d135a223,r8c5,strikeout,FALSE,strikeout,Matched to the MLB event.
+746804,Minnesota Twins,Christian Vázquez,7,error,0.8846,FALSE,2024-04-29,away,Chicago White Sox,543877,48,7617d135a223,r8c7,error,FALSE,error,Matched to the MLB event.
+746804,Minnesota Twins,Christian Vázquez,9,strikeout,0.9504,FALSE,2024-04-29,away,Chicago White Sox,543877,65,7617d135a223,r8c9,strikeout,FALSE,strikeout,Matched to the MLB event.
+746804,Minnesota Twins,Kyle Farmer,2,flyout,0.9474,FALSE,2024-04-29,away,Chicago White Sox,571657,13,7617d135a223,r9c2,flyout,FALSE,flyout,Matched to the MLB event.
+746804,Minnesota Twins,Kyle Farmer,5,strikeout,0.9442,FALSE,2024-04-29,away,Chicago White Sox,571657,34,7617d135a223,r9c5,strikeout,FALSE,strikeout,Matched to the MLB event.
+746804,Minnesota Twins,Alex Kirilloff,7,groundout,0.9504,FALSE,2024-04-29,away,Chicago White Sox,666135,49,7617d135a223,r9c7,groundout,FALSE,groundout,Matched to the MLB event.
+823774,Cleveland Guardians,Travis Bazzana,1,flyout,0.9557,FALSE,2026-06-17,away,Milwaukee Brewers,683953,0,b1650de36896,r1c1,flyout,FALSE,flyout,Matched to the MLB event.
+823774,Cleveland Guardians,Travis Bazzana,4,walk,0.9441,FALSE,2026-06-17,away,Milwaukee Brewers,683953,25,b1650de36896,r1c4,walk,FALSE,walk,Matched to the MLB event.
+823774,Cleveland Guardians,Travis Bazzana,5,double,0.9034,FALSE,2026-06-17,away,Milwaukee Brewers,683953,39,b1650de36896,r1c5,walk,TRUE,double,Card shows 2B; MLB describes a double.
+823774,Cleveland Guardians,Travis Bazzana,8,flyout,0.9436,FALSE,2026-06-17,away,Milwaukee Brewers,683953,57,b1650de36896,r1c8,flyout,FALSE,flyout,Matched to the MLB event.
+823774,Cleveland Guardians,Kyle Manzardo,1,strikeout,0.9537,FALSE,2026-06-17,away,Milwaukee Brewers,700932,1,b1650de36896,r2c1,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Kyle Manzardo,4,single,0.9502,FALSE,2026-06-17,away,Milwaukee Brewers,700932,26,b1650de36896,r2c4,single,FALSE,single,Matched to the MLB event.
+823774,Cleveland Guardians,Kyle Manzardo,5,strikeout,0.9447,FALSE,2026-06-17,away,Milwaukee Brewers,700932,40,b1650de36896,r2c5,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Kyle Manzardo,8,groundout,0.9481,FALSE,2026-06-17,away,Milwaukee Brewers,700932,58,b1650de36896,r2c8,groundout,FALSE,groundout,Matched to the MLB event.
+823774,Cleveland Guardians,Brayan Rocchio,1,strikeout,0.9488,FALSE,2026-06-17,away,Milwaukee Brewers,677587,2,b1650de36896,r3c1,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Brayan Rocchio,4,walk,0.9456,FALSE,2026-06-17,away,Milwaukee Brewers,677587,27,b1650de36896,r3c4,walk,FALSE,walk,Matched to the MLB event.
+823774,Cleveland Guardians,Brayan Rocchio,5,strikeout,0.9466,FALSE,2026-06-17,away,Milwaukee Brewers,677587,41,b1650de36896,r3c5,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Brayan Rocchio,8,flyout,0.9449,FALSE,2026-06-17,away,Milwaukee Brewers,677587,59,b1650de36896,r3c8,flyout,FALSE,flyout,Matched to the MLB event.
+823774,Cleveland Guardians,Rhys Hoskins,2,strikeout,0.9463,FALSE,2026-06-17,away,Milwaukee Brewers,656555,10,b1650de36896,r4c2,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Rhys Hoskins,4,strikeout,0.9435,FALSE,2026-06-17,away,Milwaukee Brewers,656555,28,b1650de36896,r4c4,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Rhys Hoskins,6,strikeout,0.9544,FALSE,2026-06-17,away,Milwaukee Brewers,656555,45,b1650de36896,r4c6,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Rhys Hoskins,9,flyout,0.9426,FALSE,2026-06-17,away,Milwaukee Brewers,656555,67,b1650de36896,r4c9,flyout,FALSE,flyout,Matched to the MLB event.
+823774,Cleveland Guardians,Daniel Schneemann,2,strikeout,0.9497,FALSE,2026-06-17,away,Milwaukee Brewers,682177,11,b1650de36896,r5c2,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Daniel Schneemann,4,home_run,0.9502,FALSE,2026-06-17,away,Milwaukee Brewers,682177,29,b1650de36896,r5c4,home_run,FALSE,home_run,Matched to the MLB event.
+823774,Cleveland Guardians,Daniel Schneemann,6,strikeout,0.9529,FALSE,2026-06-17,away,Milwaukee Brewers,682177,46,b1650de36896,r5c6,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Daniel Schneemann,9,groundout,0.9459,FALSE,2026-06-17,away,Milwaukee Brewers,682177,68,b1650de36896,r5c9,groundout,FALSE,groundout,Matched to the MLB event.
+823774,Cleveland Guardians,David Fry,2,flyout,0.9474,FALSE,2026-06-17,away,Milwaukee Brewers,681807,12,b1650de36896,r6c2,flyout,FALSE,flyout,Matched to the MLB event.
+823774,Cleveland Guardians,David Fry,4,flyout,0.9284,FALSE,2026-06-17,away,Milwaukee Brewers,681807,30,b1650de36896,r6c4,flyout,FALSE,flyout,Matched to the MLB event.
+823774,Cleveland Guardians,David Fry,6,groundout,0.9456,FALSE,2026-06-17,away,Milwaukee Brewers,681807,47,b1650de36896,r6c6,groundout,FALSE,groundout,Matched to the MLB event.
+823774,Cleveland Guardians,David Fry,9,flyout,0.9491,FALSE,2026-06-17,away,Milwaukee Brewers,681807,69,b1650de36896,r6c9,flyout,FALSE,flyout,Matched to the MLB event.
+823774,Cleveland Guardians,Steven Kwan,3,lineout,0.9466,FALSE,2026-06-17,away,Milwaukee Brewers,680757,19,b1650de36896,r7c3,lineout,FALSE,lineout,Matched to the MLB event.
+823774,Cleveland Guardians,Steven Kwan,4,walk,0.9461,FALSE,2026-06-17,away,Milwaukee Brewers,680757,31,b1650de36896,r7c4,walk,FALSE,walk,Matched to the MLB event.
+823774,Cleveland Guardians,Steven Kwan,7,strikeout_looking,0.9463,FALSE,2026-06-17,away,Milwaukee Brewers,680757,51,b1650de36896,r7c7,strikeout,TRUE,strikeout_looking,Called strikeout confirmed by MLB; strikeout count unchanged.
+823774,Cleveland Guardians,Petey Halpin,3,flyout,0.9434,FALSE,2026-06-17,away,Milwaukee Brewers,690984,20,b1650de36896,r8c3,flyout,FALSE,flyout,Matched to the MLB event.
+823774,Cleveland Guardians,Petey Halpin,4,groundout,0.9471,FALSE,2026-06-17,away,Milwaukee Brewers,690984,32,b1650de36896,r8c4,groundout,FALSE,groundout,Matched to the MLB event.
+823774,Cleveland Guardians,Petey Halpin,7,strikeout,0.9532,FALSE,2026-06-17,away,Milwaukee Brewers,690984,52,b1650de36896,r8c7,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Patrick Bailey,3,strikeout,0.9408,FALSE,2026-06-17,away,Milwaukee Brewers,672275,21,b1650de36896,r9c3,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Patrick Bailey,5,strikeout,0.9454,FALSE,2026-06-17,away,Milwaukee Brewers,672275,38,b1650de36896,r9c5,strikeout,FALSE,strikeout,Matched to the MLB event.
+823774,Cleveland Guardians,Patrick Bailey,7,groundout,0.9473,FALSE,2026-06-17,away,Milwaukee Brewers,672275,53,b1650de36896,r9c7,groundout,FALSE,groundout,Matched to the MLB event.
+823644,New York Mets,Francisco Lindor,1,strikeout,0.9352,FALSE,2026-04-11,home,Athletics,596019,4,ba3de17ca246/scorecard_2,r1c1,strikeout,FALSE,strikeout,Matched to the MLB event.
+823644,New York Mets,Francisco Lindor,3,flyout,0.9467,FALSE,2026-04-11,home,Athletics,596019,28,ba3de17ca246/scorecard_2,r1c3,flyout,FALSE,flyout,Matched to the MLB event.
+823644,New York Mets,Francisco Lindor,5,single,0.9198,FALSE,2026-04-11,home,Athletics,596019,44,ba3de17ca246/scorecard_2,r1c5,walk,TRUE,single,Card single/run diamond; MLB confirms a single.
+823644,New York Mets,Francisco Lindor,6,flyout,0.9503,FALSE,2026-04-11,home,Athletics,596019,57,ba3de17ca246/scorecard_2,r1c6,flyout,FALSE,flyout,Matched to the MLB event.
+823644,New York Mets,Francisco Lindor,8,strikeout,0.9369,FALSE,2026-04-11,home,Athletics,596019,77,ba3de17ca246/scorecard_2,r1c8,strikeout,FALSE,strikeout,Matched to the MLB event.
+823644,New York Mets,Luis Robert Jr.,1,single,0.9441,FALSE,2026-04-11,home,Athletics,673357,5,ba3de17ca246/scorecard_2,r2c1,single,FALSE,single,Matched to the MLB event.
+823644,New York Mets,Luis Robert Jr.,3,walk,0.8363,FALSE,2026-04-11,home,Athletics,673357,29,ba3de17ca246/scorecard_2,r2c3,walk,FALSE,walk,Matched to the MLB event.
+823644,New York Mets,Luis Robert Jr.,5,strikeout,0.9352,FALSE,2026-04-11,home,Athletics,673357,45,ba3de17ca246/scorecard_2,r2c5,strikeout,FALSE,strikeout,Matched to the MLB event.
+823644,New York Mets,Luis Robert Jr.,6,fielder's_choice,0.9356,FALSE,2026-04-11,home,Athletics,673357,58,ba3de17ca246/scorecard_2,r2c6,groundout,FALSE,fielder's_choice,MLB force out: preceding runner out and batter reaches first; batting counts unchanged.
+823644,New York Mets,Luis Robert Jr.,8,strikeout,0.897,FALSE,2026-04-11,home,Athletics,673357,78,ba3de17ca246/scorecard_2,r2c8,strikeout,FALSE,strikeout,Matched to the MLB event.
+823644,New York Mets,Jorge Polanco,1,groundout,0.9389,FALSE,2026-04-11,home,Athletics,593871,6,ba3de17ca246/scorecard_2,r3c1,groundout,FALSE,groundout,Matched to the MLB event.
+823644,New York Mets,Jorge Polanco,3,fielder's_choice,0.6938,FALSE,2026-04-11,home,Athletics,593871,30,ba3de17ca246/scorecard_2,r3c3,walk,TRUE,fielder's_choice,Card force-out notation; MLB confirms batter reached on a force out.
+823644,New York Mets,Jorge Polanco,5,strikeout,0.9423,FALSE,2026-04-11,home,Athletics,593871,46,ba3de17ca246/scorecard_2,r3c5,strikeout,FALSE,strikeout,Matched to the MLB event.
+823644,New York Mets,Jorge Polanco,7,home_run,0.8703,FALSE,2026-04-11,home,Athletics,593871,63,ba3de17ca246/scorecard_2,r3c7,walk,TRUE,home_run,Card filled run diamond and HR notation; MLB confirms home run.
+823644,New York Mets,Jorge Polanco,9,groundout,0.9541,FALSE,2026-04-11,home,Athletics,593871,83,ba3de17ca246/scorecard_2,r3c9,groundout,FALSE,groundout,Matched to the MLB event.
+823644,New York Mets,Bo Bichette,1,single,0.9504,FALSE,2026-04-11,home,Athletics,666182,7,ba3de17ca246/scorecard_2,r4c1,single,FALSE,single,Matched to the MLB event.
+823644,New York Mets,Bo Bichette,3,walk,0.9453,FALSE,2026-04-11,home,Athletics,666182,31,ba3de17ca246/scorecard_2,r4c3,single,TRUE,walk,Card BB notation; MLB confirms walk.
+823644,New York Mets,Bo Bichette,5,home_run,0.9301,FALSE,2026-04-11,home,Athletics,666182,47,ba3de17ca246/scorecard_2,r4c5,home_run,FALSE,home_run,Matched to the MLB event.
+823644,New York Mets,Bo Bichette,7,walk,0.9178,FALSE,2026-04-11,home,Athletics,666182,64,ba3de17ca246/scorecard_2,r4c7,walk,FALSE,walk,Matched to the MLB event.
+823644,New York Mets,Bo Bichette,9,strikeout,0.9472,FALSE,2026-04-11,home,Athletics,666182,84,ba3de17ca246/scorecard_2,r4c9,strikeout,FALSE,strikeout,Matched to the MLB event.
+823644,New York Mets,Mark Vientos,1,flyout,0.9448,FALSE,2026-04-11,home,Athletics,668901,8,ba3de17ca246/scorecard_2,r5c1,flyout,FALSE,flyout,Matched to the MLB event.
+823644,New York Mets,Mark Vientos,3,flyout,0.9511,FALSE,2026-04-11,home,Athletics,668901,32,ba3de17ca246/scorecard_2,r5c3,flyout,FALSE,flyout,Matched to the MLB event.
+823644,New York Mets,Mark Vientos,5,flyout,0.9511,FALSE,2026-04-11,home,Athletics,668901,48,ba3de17ca246/scorecard_2,r5c5,flyout,FALSE,flyout,Matched to the MLB event.
+823644,New York Mets,Mark Vientos,7,strikeout,0.9441,FALSE,2026-04-11,home,Athletics,668901,65,ba3de17ca246/scorecard_2,r5c7,strikeout,FALSE,strikeout,Matched to the MLB event.
+823644,New York Mets,Mark Vientos,9,groundout,0.9498,FALSE,2026-04-11,home,Athletics,668901,85,ba3de17ca246/scorecard_2,r5c9,groundout,FALSE,groundout,Matched to the MLB event.
+823644,New York Mets,Francisco Alvarez,2,lineout,0.9279,FALSE,2026-04-11,home,Athletics,682626,16,ba3de17ca246/scorecard_2,r6c2,lineout,FALSE,lineout,Matched to the MLB event.
+823644,New York Mets,Francisco Alvarez,4,lineout,0.9316,FALSE,2026-04-11,home,Athletics,682626,37,ba3de17ca246/scorecard_2,r6c4,lineout,FALSE,lineout,Matched to the MLB event.
+823644,New York Mets,Francisco Alvarez,6,home_run,0.9466,FALSE,2026-04-11,home,Athletics,682626,53,ba3de17ca246/scorecard_2,r6c6,walk,TRUE,home_run,Card filled run diamond and HR notation; MLB confirms home run.
+823644,New York Mets,Francisco Alvarez,7,single,0.9483,FALSE,2026-04-11,home,Athletics,682626,66,ba3de17ca246/scorecard_2,r6c7,single,FALSE,single,Matched to the MLB event.
+823644,New York Mets,Carson Benge,2,strikeout,1.0,FALSE,2026-04-11,home,Athletics,701807,17,ba3de17ca246/scorecard_2,r7c2,strikeout,FALSE,strikeout,Matched to the MLB event.
+823644,New York Mets,Carson Benge,4,single,0.9169,FALSE,2026-04-11,home,Athletics,701807,38,ba3de17ca246/scorecard_2,r7c4,walk,TRUE,single,Card single notation; MLB confirms single.
+823644,New York Mets,Carson Benge,6,walk,0.946,FALSE,2026-04-11,home,Athletics,701807,54,ba3de17ca246/scorecard_2,r7c6,walk,FALSE,walk,Matched to the MLB event.
+823644,New York Mets,Carson Benge,7,flyout,0.953,FALSE,2026-04-11,home,Athletics,701807,67,ba3de17ca246/scorecard_2,r7c7,flyout,FALSE,flyout,Matched to the MLB event.
+823644,New York Mets,Marcus Semien,2,groundout,0.9424,FALSE,2026-04-11,home,Athletics,543760,18,ba3de17ca246/scorecard_2,r8c2,groundout,FALSE,groundout,Matched to the MLB event.
+823644,New York Mets,Marcus Semien,4,strikeout,0.9351,FALSE,2026-04-11,home,Athletics,543760,39,ba3de17ca246/scorecard_2,r8c4,strikeout,FALSE,strikeout,Matched to the MLB event.
+823644,New York Mets,Marcus Semien,6,single,0.951,FALSE,2026-04-11,home,Athletics,543760,55,ba3de17ca246/scorecard_2,r8c6,single,FALSE,single,Matched to the MLB event.
+823644,New York Mets,Marcus Semien,7,flyout,0.9558,FALSE,2026-04-11,home,Athletics,543760,68,ba3de17ca246/scorecard_2,r8c7,flyout,FALSE,flyout,Matched to the MLB event.
+823644,New York Mets,Tyrone Taylor,3,single,0.9494,FALSE,2026-04-11,home,Athletics,621438,27,ba3de17ca246/scorecard_2,r9c3,single,FALSE,single,Matched to the MLB event.
+823644,New York Mets,Tyrone Taylor,4,flyout,0.9456,FALSE,2026-04-11,home,Athletics,621438,40,ba3de17ca246/scorecard_2,r9c4,flyout,FALSE,flyout,Matched to the MLB event.
+823644,New York Mets,Brett Baty,6,sacrifice_fly,0.9338,FALSE,2026-04-11,home,Athletics,683146,56,ba3de17ca246/scorecard_2,r9c6,sacrifice_fly,FALSE,sacrifice_fly,Matched to the MLB event.
+823644,New York Mets,Brett Baty,8,strikeout,0.9456,FALSE,2026-04-11,home,Athletics,683146,76,ba3de17ca246/scorecard_2,r9c8,strikeout,FALSE,strikeout,Matched to the MLB event.

@@ -1,0 +1,6 @@
+game_id,team,game_date,opponent,PA,AB,H,BB,HBP,SF,SH,CI,TB
+825071,Arizona Diamondbacks,2026-06-15,Los Angeles Angels,35,31,8,3,1,0,0,0,12
+822782,St. Louis Cardinals,2026-07-31,Toronto Blue Jays,35,32,5,3,0,0,0,0,6
+746804,Minnesota Twins,2024-04-29,Chicago White Sox,35,32,4,3,0,0,0,0,8
+823774,Cleveland Guardians,2026-06-17,Milwaukee Brewers,33,30,3,3,0,0,0,0,7
+823644,New York Mets,2026-04-11,Athletics,41,36,10,4,0,1,0,0,19

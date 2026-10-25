@@ -1,4 +1,4 @@
-* using log directory ‘/private/tmp/msds457-checkpoint-check/daimondstats.Rcheck’
+* using log directory ‘/private/tmp/msds457-multigame/check/daimondstats.Rcheck’
 * using R version 4.5.1 (2025-06-13)
 * using platform: aarch64-apple-darwin20
 * R was compiled by
@@ -8,7 +8,7 @@
 * using session charset: UTF-8
 * using option ‘--no-manual’
 * checking for file ‘daimondstats/DESCRIPTION’ ... OK
-* this is package ‘daimondstats’ version ‘0.0.2’
+* this is package ‘daimondstats’ version ‘0.0.3’
 * package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... OK
@@ -56,5 +56,6 @@
 * checking tests ... OK
   Running ‘core.R’
   Running ‘personal-season.R’
+  Running ‘reviewed-data.R’
 * DONE
 Status: OK
