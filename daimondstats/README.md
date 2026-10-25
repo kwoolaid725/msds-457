@@ -5,6 +5,8 @@ Version 0.0.2 adds personal-season comparisons and situational run value (RE24).
 The original scorecard importer and batting calculator remain supporting tools.
 It uses base R, with no extra runtime packages.
 
+Source: [MSDS 457 final-project package](https://github.com/kwoolaid725/msds-457/tree/main/daimondstats).
+
 ## Personal-season analytics
 
 - `compare_personal_season(games, game_ids, metric = "win", strata = "home")`
@@ -121,9 +123,9 @@ Repository-index lookups were unavailable; PDF manual generation was not checked
 The real dataset's UTF-8 encoding was corrected before this check, preserving
 all data values and the accented player name.
 
-Still planned: real reviewed sample games and official-record comparisons,
+Still planned: additional reviewed games and official-record comparisons,
 documented expectancy data, cautious scorebook-pattern discovery, a plot function,
-a vignette, GitHub publication, and the final project guides. WPA and lineup
+a vignette, and the final project guides. WPA and lineup
 simulation are later possibilities. This is not the completed final package.
 
 ## Sources
