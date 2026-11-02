@@ -7,27 +7,27 @@
 \format{
 A data frame with 179 rows and 18 columns:
 \describe{
-  \item{game_id}{Character MLB game identifier.}
-  \item{team}{Character batting team name from MLB.}
-  \item{player}{Character batter name from MLB.}
-  \item{inning}{Character inning number; rows follow card layout.}
-  \item{play}{Character reviewed canonical event label.}
-  \item{confidence}{Numeric score retained from the saved app export;
-    not a probability that the reviewed label is correct.}
-  \item{needs_review}{Logical, FALSE for all accepted rows.}
-  \item{game_date}{Date of the game.}
-  \item{side}{Character, home or away.}
-  \item{opponent}{Character opponent name.}
-  \item{batter_id}{Integer MLB batter identifier.}
-  \item{event_id}{Character MLB atBatIndex, unique within each game.}
-  \item{source_result}{Character saved-result identifier and child card if applicable.}
-  \item{source_cell}{Character one-based card row/column identifier.}
-  \item{source_play}{Character label retained from the original saved export.}
-  \item{source_needs_review}{Logical flag reconstructed from saved app
-    confidence/review indicators and its cached label disagreement.}
-  \item{reference_play}{Character canonical label independently derived
-    from the retrieved MLB event.}
-  \item{review_note}{Character review decision or correction explanation.}
+\item{game_id}{Character MLB game identifier.}
+\item{team}{Character batting team name from MLB.}
+\item{player}{Character batter name from MLB.}
+\item{inning}{Character inning number; rows follow card layout.}
+\item{play}{Character reviewed canonical event label.}
+\item{confidence}{Numeric score retained from the saved app export;
+not a probability that the reviewed label is correct.}
+\item{needs_review}{Logical, FALSE for all accepted rows.}
+\item{game_date}{Date of the game.}
+\item{side}{Character, home or away.}
+\item{opponent}{Character opponent name.}
+\item{batter_id}{Integer MLB batter identifier.}
+\item{event_id}{Character MLB atBatIndex, unique within each game.}
+\item{source_result}{Character saved-result identifier and child card if applicable.}
+\item{source_cell}{Character one-based card row/column identifier.}
+\item{source_play}{Character label retained from the original saved export.}
+\item{source_needs_review}{Logical flag reconstructed from saved app
+confidence/review indicators and its cached label disagreement.}
+\item{reference_play}{Character canonical label independently derived
+from the retrieved MLB event.}
+\item{review_note}{Character review decision or correction explanation.}
 }
 }
 \source{

@@ -7,6 +7,8 @@
 #'   integer-valued `outs_before`, `bases_before`, `outs_after`, `bases_after`,
 #'   `runs_scored`; and logical `verified`. All events must be verified.
 #'   Base masks use 1 for first, 2 for second and 4 for third, added together.
+#'   Before outs must be 0:2, after outs 0:3, and base masks 0:7.
+#'   Outs cannot decrease and runs scored must be nonnegative.
 #' @param expectancy Data frame with all 24 distinct combinations of `outs`
 #'   (0:2) and `bases` (0:7), plus finite nonnegative numeric `expected_runs`.
 #' @return The input data frame with numeric `re_before`, `re_after`, and `re24`
@@ -21,6 +23,7 @@
 #'   batter. Walk-off states use the supplied base-out expectancy, not forced
 #'   zero simply because the game ended. RE24 describes situational value,
 #'   not a prediction or proof of clutch ability. Original columns are retained.
+#' @seealso [compare_personal_season()]
 #' @references Weinberg, Neil. 2014. "RE24." FanGraphs, July 30.
 #'   https://library.fangraphs.com/misc/re24/
 #' @examples

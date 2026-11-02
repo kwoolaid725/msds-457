@@ -19,14 +19,17 @@
 #'   97.5th reference percentiles, and a tie-adjusted percentile rank),
 #'   `simulated_means`, and `settings`. The reference range is not a confidence
 #'   interval for a causal effect or underlying player ability.
+#'   Summary fields include `personal_mean`, `other_mean`, `season_mean`,
+#'   `difference`, `reference_low`, `reference_high`, and `reference_percentile`.
 #' @details Supply complete game-level records, not one row per upload or team
 #'   side. Duplicates and missing IDs are errors. At least one selected and one
 #'   unselected game are required. Sampling includes the selected games in the
 #'   reference population. Use `set.seed()` before calling for reproducibility.
 #'   More detailed strata can leave little variation. Unmeasured selection
 #'   differences remain, and this function does not test many patterns at once.
+#' @seealso [calculate_batting_stats()], [calculate_run_impact()]
 #' @examples
-#' games <- data.frame(game_id = letters[1:8], team = "Demo", season = 2025,
+#' games <- data.frame(game_id = letters[1:8], team = "Demo", season = 2026,
 #'                     home = rep(c(TRUE, FALSE), 4), win = c(1, 0, 1, 1, 0, 0, 1, 0))
 #' set.seed(457)
 #' compare_personal_season(games, c("a", "b", "c"), simulations = 100)$summary

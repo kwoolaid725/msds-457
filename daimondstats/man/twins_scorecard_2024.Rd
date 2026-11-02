@@ -7,20 +7,20 @@
 \format{
 A data frame with 35 rows and 10 columns:
 \describe{
-  \item{game_id}{Character. MLB game identifier, \code{"746804"}.}
-  \item{team}{Character. Batting team, \code{"Minnesota Twins"}.}
-  \item{player}{Character. Batter name from the matched MLB reference event.}
-  \item{inning}{Character. Inning label retained from the scorecard result.}
-  \item{play}{Character. Original canonical play label predicted by the app.}
-  \item{confidence}{Numeric. The app's play-classification score, between
-    zero and one; this is not a guarantee that the reading is correct.}
-  \item{needs_review}{Logical. TRUE when the app flagged the play, confidence
-    is missing, or the play label differs from its reference label.}
-  \item{game_date}{Date. Game date, April 29, 2024.}
-  \item{reference_play}{Character. Canonical play label in the cached MLB
-    reference event.}
-  \item{play_matches_reference}{Logical. Whether \code{play} equals
-    \code{reference_play}.}
+\item{game_id}{Character. MLB game identifier, \code{"746804"}.}
+\item{team}{Character. Batting team, \code{"Minnesota Twins"}.}
+\item{player}{Character. Batter name from the matched MLB reference event.}
+\item{inning}{Character. Inning label retained from the scorecard result.}
+\item{play}{Character. Original canonical play label predicted by the app.}
+\item{confidence}{Numeric. The app's play-classification score, between
+zero and one; this is not a guarantee that the reading is correct.}
+\item{needs_review}{Logical. TRUE when the app flagged the play, confidence
+is missing, or the play label differs from its reference label.}
+\item{game_date}{Date. Game date, April 29, 2024.}
+\item{reference_play}{Character. Canonical play label in the cached MLB
+reference event.}
+\item{play_matches_reference}{Logical. Whether \code{play} equals
+\code{reference_play}.}
 }
 }
 \source{
@@ -49,7 +49,7 @@ The original play predictions are retained. Thirty-four labels match the
 reference; Willi Castro's ninth-inning play is classified as \code{flyout}
 while the reference reports \code{lineout}. That row has
 \code{needs_review = TRUE}. The seven columns required by
-[calculate_batting_stats()] are included, but the flagged row must be reviewed
+\code{\link[=calculate_batting_stats]{calculate_batting_stats()}} are included, but the flagged row must be reviewed
 before using that function. Base-out states required for RE24 are not included.
 }
 \examples{
