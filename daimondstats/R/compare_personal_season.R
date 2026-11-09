@@ -27,7 +27,8 @@
 #'   reference population. Use `set.seed()` before calling for reproducibility.
 #'   More detailed strata can leave little variation. Unmeasured selection
 #'   differences remain, and this function does not test many patterns at once.
-#' @seealso [calculate_batting_stats()], [calculate_run_impact()]
+#' @seealso [season_games()], [reviewed_team_seasons], [calculate_batting_stats()],
+#'   [calculate_run_impact()]
 #' @examples
 #' games <- data.frame(game_id = letters[1:8], team = "Demo", season = 2026,
 #'                     home = rep(c(TRUE, FALSE), 4), win = c(1, 0, 1, 1, 0, 0, 1, 0))

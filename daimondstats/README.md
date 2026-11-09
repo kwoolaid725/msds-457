@@ -19,14 +19,14 @@ Requires R 4.1.0 or later. From the root of a local clone of the
 
 ```sh
 R CMD build daimondstats
-R CMD INSTALL daimondstats_0.0.4.tar.gz
+R CMD INSTALL daimondstats_0.0.5.tar.gz
 ```
 
 Building first includes the vignette; `R CMD INSTALL daimondstats` also works
 but skips it. Building the vignette needs `knitr` and `rmarkdown`.
 
-The runtime uses only packages distributed with R (`stats` and `utils`).
-The plot uses base R graphics. `roxygen2` is an optional development dependency for generating help files.
+The runtime uses `jsonlite` to read MLB schedules plus packages distributed
+with R (`graphics`, `stats`, `utils`); the plot uses base R graphics. `roxygen2` is an optional development dependency for generating help files.
 
 ## Basic usage
 
@@ -35,6 +35,10 @@ library(daimondstats)
 # Included reviewed plays from five team scorecards:
 batting <- calculate_batting_stats(reviewed_scorecards)
 head(batting)
+# Was the scored Twins game unusual within the 2024 Twins season?
+twins <- subset(reviewed_team_seasons, team == "Minnesota Twins")
+set.seed(457)
+compare_personal_season(twins, "746804", metric = "run_diff")$summary
 # Fictional eight-game reference season for learning the interface:
 games <- data.frame(game_id = letters[1:8], team = "Demo", season = 2026,
   home = rep(c(TRUE, FALSE), 4), win = c(1, 0, 1, 1, 0, 0, 1, 0))
@@ -56,6 +60,7 @@ percentile. The range describes sampled game collections, not a causal effect.
 - `compare_personal_season()` samples comparable game collections.
 - `calculate_run_impact()` adds RE24 using a supplied 24-state expectancy table.
 - `plot_run_impact()` draws total RE24 by player and returns the totals.
+- `season_games()` turns an MLB schedule into one row per completed game.
 
 ## Data and current limits
 
@@ -63,8 +68,9 @@ percentile. The range describes sampled game collections, not a causal effect.
 spanning multiple teams and seasons. It is not a complete reference season.
 `reviewed_base_out` adds MLB base-out transitions for the same team sides (188
 events, joined one to one with the 179 plate appearances), and
-`run_expectancy_fangraphs` is the published FanGraphs matrix. The season
-comparison example remains fictional.
+`run_expectancy_fangraphs` is the published FanGraphs matrix.
+`reviewed_team_seasons` holds the full 162-game season for each scorecard
+team, built from MLB schedules, for real season comparisons.
 Two smaller datasets support learning and testing: `demo_scorecards` (11
 fictional entries for checking formulas by hand) and `twins_scorecard_2024`
 (35 Twins plays from April 29, 2024).
@@ -80,10 +86,11 @@ provenance, validation rules, and development checks.
 
 ## Development status and license
 
-Version 0.0.4 adds real-event RE24 data, a plotting function, and a vignette.
-A complete-season adapter for `compare_personal_season()` remains planned. From the
+Version 0.0.5 adds `season_games()` and real team seasons, so
+`compare_personal_season()` now runs on real games. Version 0.0.4 added
+real-event RE24 data, a plotting function, and a vignette. From the
 repository root, regenerate documentation with
 `roxygen2::roxygenise("daimondstats")`. The package uses the MIT license; see
 `LICENSE`. ChatGPT assisted with implementation and documentation, including
 the documentation review on November 1, 2026. Claude assisted with the
-version 0.0.4 base-out data, plot function, and vignette.
+version 0.0.4 and 0.0.5 base-out data, plot function, vignette, and season adapter.

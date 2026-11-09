@@ -57,5 +57,6 @@ set.seed(457)
 compare_personal_season(games, c("a", "b", "c"), simulations = 100)$summary
 }
 \seealso{
-\code{\link[=calculate_batting_stats]{calculate_batting_stats()}}, \code{\link[=calculate_run_impact]{calculate_run_impact()}}
+\code{\link[=season_games]{season_games()}}, \link{reviewed_team_seasons}, \code{\link[=calculate_batting_stats]{calculate_batting_stats()}},
+\code{\link[=calculate_run_impact]{calculate_run_impact()}}
 }

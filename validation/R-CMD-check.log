@@ -8,7 +8,7 @@
 * using session charset: UTF-8
 * using option ‘--no-manual’
 * checking for file ‘daimondstats/DESCRIPTION’ ... OK
-* this is package ‘daimondstats’ version ‘0.0.4’
+* this is package ‘daimondstats’ version ‘0.0.5’
 * package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... OK
@@ -60,6 +60,7 @@
   Running ‘personal-season.R’
   Running ‘reviewed-data.R’
   Running ‘run-impact-real.R’
+  Running ‘team-seasons.R’
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes ... OK
 * checking re-building of vignette outputs ... OK

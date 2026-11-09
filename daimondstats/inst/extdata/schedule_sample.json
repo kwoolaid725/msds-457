@@ -1,0 +1,180 @@
+{
+ "note": "Trimmed from the MLB Stats API 2024 Minnesota Twins regular-season schedule, retrieved 2026-11-08, for examples and tests.",
+ "dates": [
+  {
+   "date": "2024-03-28",
+   "games": [
+    {
+     "gamePk": 746335,
+     "gameType": "R",
+     "season": "2024",
+     "officialDate": "2024-03-28",
+     "status": {
+      "abstractGameState": "Final",
+      "detailedState": "Final",
+      "codedGameState": "F"
+     },
+     "teams": {
+      "away": {
+       "team": {
+        "id": 142,
+        "name": "Minnesota Twins"
+       },
+       "score": 4,
+       "isWinner": true
+      },
+      "home": {
+       "team": {
+        "id": 118,
+        "name": "Kansas City Royals"
+       },
+       "score": 1,
+       "isWinner": false
+      }
+     },
+     "gameNumber": 1,
+     "doubleHeader": "N"
+    }
+   ]
+  },
+  {
+   "date": "2024-04-07",
+   "games": [
+    {
+     "gamePk": 745927,
+     "gameType": "R",
+     "season": "2024",
+     "officialDate": "2024-08-09",
+     "status": {
+      "abstractGameState": "Final",
+      "detailedState": "Postponed",
+      "codedGameState": "D"
+     },
+     "teams": {
+      "away": {
+       "team": {
+        "id": 114,
+        "name": "Cleveland Guardians"
+       },
+       "score": null,
+       "isWinner": null
+      },
+      "home": {
+       "team": {
+        "id": 142,
+        "name": "Minnesota Twins"
+       },
+       "score": null,
+       "isWinner": null
+      }
+     },
+     "gameNumber": 1,
+     "doubleHeader": "N"
+    }
+   ]
+  },
+  {
+   "date": "2024-04-29",
+   "games": [
+    {
+     "gamePk": 746804,
+     "gameType": "R",
+     "season": "2024",
+     "officialDate": "2024-04-29",
+     "status": {
+      "abstractGameState": "Final",
+      "detailedState": "Final",
+      "codedGameState": "F"
+     },
+     "teams": {
+      "away": {
+       "team": {
+        "id": 142,
+        "name": "Minnesota Twins"
+       },
+       "score": 3,
+       "isWinner": true
+      },
+      "home": {
+       "team": {
+        "id": 145,
+        "name": "Chicago White Sox"
+       },
+       "score": 2,
+       "isWinner": false
+      }
+     },
+     "gameNumber": 1,
+     "doubleHeader": "N"
+    }
+   ]
+  },
+  {
+   "date": "2024-08-09",
+   "games": [
+    {
+     "gamePk": 745927,
+     "gameType": "R",
+     "season": "2024",
+     "officialDate": "2024-08-09",
+     "status": {
+      "abstractGameState": "Final",
+      "detailedState": "Final",
+      "codedGameState": "F"
+     },
+     "teams": {
+      "away": {
+       "team": {
+        "id": 114,
+        "name": "Cleveland Guardians"
+       },
+       "score": 2,
+       "isWinner": false
+      },
+      "home": {
+       "team": {
+        "id": 142,
+        "name": "Minnesota Twins"
+       },
+       "score": 4,
+       "isWinner": true
+      }
+     },
+     "gameNumber": 1,
+     "doubleHeader": "S"
+    },
+    {
+     "gamePk": 745871,
+     "gameType": "R",
+     "season": "2024",
+     "officialDate": "2024-08-09",
+     "status": {
+      "abstractGameState": "Final",
+      "detailedState": "Final",
+      "codedGameState": "F"
+     },
+     "teams": {
+      "away": {
+       "team": {
+        "id": 114,
+        "name": "Cleveland Guardians"
+       },
+       "score": 3,
+       "isWinner": false
+      },
+      "home": {
+       "team": {
+        "id": 142,
+        "name": "Minnesota Twins"
+       },
+       "score": 6,
+       "isWinner": true
+      }
+     },
+     "gameNumber": 2,
+     "doubleHeader": "S"
+    }
+   ]
+  }
+ ]
+}

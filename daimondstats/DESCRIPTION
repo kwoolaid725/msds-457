@@ -1,12 +1,13 @@
 Package: daimondstats
 Title: Personal Baseball Seasons and Situational Run Value
-Version: 0.0.4
+Version: 0.0.5
 Authors@R: person("Woohyun", "Kim", email = "woodenkim92@gmail.com",
     role = c("aut", "cre"))
 Description: Compares a personal collection of baseball games with a reference
     season through stratified resampling and evaluates verified plays using
     run expectancy. Includes MLB base-out transitions for five reviewed
-    scorecards, a published run expectancy matrix, and a run impact plot.
+    scorecards, a published run expectancy matrix, a run impact plot, and
+    real team seasons built from MLB schedules.
     Also imports reviewed scorecard CSV exports and calculates
     batting statistics. Input checks reject unresolved scorecard readings,
     duplicate reference game identifiers, and unverified event rows.
@@ -16,6 +17,7 @@ LazyData: true
 Depends: R (>= 4.1.0)
 Imports:
     graphics,
+    jsonlite,
     stats,
     utils
 Suggests:

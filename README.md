@@ -1,9 +1,10 @@
 # MSDS 457 final project: daimondstats
 
 Woohyun Kim's R package for personal scorebook analysis. The current package is
-[daimondstats 0.0.4](daimondstats/README.md). The vignette
+[daimondstats 0.0.5](daimondstats/README.md). The vignette
 [From scorecard to run value](daimondstats/vignettes/from-scorecard-to-run-value.Rmd)
-walks through the five reviewed scorecards from batting lines to RE24.
+walks through the five reviewed scorecards from batting lines to RE24, then
+places a scored game inside its team's full season.
 
 [Module 5 progress update, two-page PDF](module%205/Kim_Final_Project_Progress_Update_v2.pdf)
 
@@ -54,17 +55,26 @@ A team's RE24 for a game equals its runs minus 0.461 for each inning batted,
 which the tests check. One matrix is applied to all games, and totals over a
 few plate appearances are noisy.
 
+## Real season comparison
+
+Version 0.0.5 adds `season_games()`, which turns an MLB Stats API schedule into
+one row per completed game, and `reviewed_team_seasons`, the full 162-game
+regular season for each scorecard team. Win totals match each schedule's final
+league record. `compare_personal_season()` now runs on real games: the scored
+Twins game, a 3-2 road win, falls at about the 58th percentile of 2024 Twins
+road-game run differentials.
+
 ## Structure and reproduction
 
 ```text
 daimondstats/
   DESCRIPTION, NAMESPACE, LICENSE, README.md
-  R/             # Five public functions and dataset documents
+  R/             # Six public functions and dataset documents
   man/           # Installed help
-  data/          # Reviewed collection, base-out events, RE matrix, Twins example, demo
-  data-raw/      # Source CSVs, audit, feed manifest, extraction/build scripts
+  data/          # Reviewed collection, base-out events, RE matrix, team seasons, examples
+  data-raw/      # Source CSVs, audit, feed manifest, MLB schedules, build scripts
   inst/extdata/  # Independent official game/player counting fixtures
-  tests/         # Core, personal-season, reviewed-data, and real RE24 tests
+  tests/         # Core, personal-season, reviewed-data, real RE24, team-season tests
   vignettes/     # From scorecard to run value
 module 5/        # Updated chart, R script, numerical summary, progress PDF
 analysis/        # RE24 plot and script; earlier Week 4 inning plot
@@ -75,8 +85,8 @@ From the repository root:
 
 ```sh
 R CMD build daimondstats
-R CMD INSTALL daimondstats_0.0.4.tar.gz
-R CMD check --no-manual daimondstats_0.0.4.tar.gz
+R CMD INSTALL daimondstats_0.0.5.tar.gz
+R CMD check --no-manual daimondstats_0.0.5.tar.gz
 Rscript analysis/re24_by_player.R
 Rscript "module 5/Kim_Module5_batting_stats.R"
 ```
@@ -106,18 +116,18 @@ corrections; agreement is not an independent classifier-accuracy estimate.
 - [Official game totals](daimondstats/inst/extdata/reviewed_game_totals.csv)
 - [Official player totals](daimondstats/inst/extdata/reviewed_player_totals.csv)
 
-The November 8, 2026 `R CMD check --no-manual` of version 0.0.4 on R 4.5.1
-finished with **status OK**, including examples, all four test scripts and the
+The November 8, 2026 `R CMD check --no-manual` of version 0.0.5 on R 4.5.1
+finished with **status OK**, including examples, all five test scripts and the
 vignette rebuild.
 [Check log](validation/R-CMD-check.log). Repository-index access was unavailable;
 PDF manual generation was not checked.
 
 ## Remaining work
 
-Connect `compare_personal_season()` to a complete real team schedule, since
-its example still uses fictional games, and finish the technical documentation,
-nontechnical walkthroughs, and presentation.
+Finish the technical documentation, nontechnical walkthroughs, and
+presentation.
 
 AI assistance: An OpenAI assistant helped with implementation, verification,
 tests, documentation, the chart, and the progress update. Claude helped with the
-version 0.0.4 base-out data, RE24 plot, vignette, and tests.
+version 0.0.4 and 0.0.5 base-out data, RE24 plot, vignette, season adapter,
+and tests.
