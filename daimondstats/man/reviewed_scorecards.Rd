@@ -65,8 +65,9 @@ corrections; label agreement is not an independent model-accuracy estimate.
 Incomplete cards, extra detections, duplicate processing runs, unresolved
 game assignments, and a card/official hit-versus-error conflict were excluded.
 The data contain no complete season and do not establish comparative team
-strength or a causal effect. Base-out transitions required for RE24 are
-not included. Do not combine this dataset with twins_scorecard_2024 without
+strength or a causal effect. Base-out transitions for RE24 are in the
+companion dataset reviewed_base_out, which joins by game_id and event_id.
+Do not combine this dataset with twins_scorecard_2024 without
 deduplicating the overlapping Twins game.
 }
 \examples{

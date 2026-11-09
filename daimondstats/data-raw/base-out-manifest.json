@@ -1,0 +1,32 @@
+{
+ "retrieved_on": "2026-11-08",
+ "script": "data-raw/base-out-states.py",
+ "matrix": "FanGraphs RE24 matrix, 4.15 runs per game (Weinberg 2014)",
+ "feeds": [
+  {
+   "game_id": 746804,
+   "feed_url": "https://statsapi.mlb.com/api/v1.1/game/746804/feed/live",
+   "feed_sha256": "b353bb5346872cab1e36930d1511e69969fef17b6592a9cf412747a12009fa83"
+  },
+  {
+   "game_id": 822782,
+   "feed_url": "https://statsapi.mlb.com/api/v1.1/game/822782/feed/live",
+   "feed_sha256": "1c820b344c0d49e7e4cb4cb98b95538d39d7f030571ac049f1a5b1b0e8276bc2"
+  },
+  {
+   "game_id": 823644,
+   "feed_url": "https://statsapi.mlb.com/api/v1.1/game/823644/feed/live",
+   "feed_sha256": "62b227e9c84ed32f2205b7b18c3d8bf9e3e3e900b0da1b03115adf96ea9ca27a"
+  },
+  {
+   "game_id": 823774,
+   "feed_url": "https://statsapi.mlb.com/api/v1.1/game/823774/feed/live",
+   "feed_sha256": "0557c8505e12a3f7316ff987aca819509e16647af2c57bd77db2a2e1724dd09f"
+  },
+  {
+   "game_id": 825071,
+   "feed_url": "https://statsapi.mlb.com/api/v1.1/game/825071/feed/live",
+   "feed_sha256": "64280b6325d780b790bd52f6764080c93d0ced0f155a37efde02be94370cf5fd"
+  }
+ ]
+}

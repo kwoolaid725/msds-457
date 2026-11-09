@@ -1,7 +1,9 @@
 # MSDS 457 final project: daimondstats
 
 Woohyun Kim's R package for personal scorebook analysis. The current package is
-[daimondstats 0.0.3](daimondstats/README.md).
+[daimondstats 0.0.4](daimondstats/README.md). The vignette
+[From scorecard to run value](daimondstats/vignettes/from-scorecard-to-run-value.Rmd)
+walks through the five reviewed scorecards from batting lines to RE24.
 
 [Module 5 progress update, two-page PDF](module%205/Kim_Final_Project_Progress_Update_v2.pdf)
 
@@ -28,28 +30,54 @@ summarizes recorded games; it does not rank team strength or supply a complete
 reference season. OBP uses pooled counts within each game. The original Twins
 example remains available and overlaps the new collection.
 
+## Run value (RE24) on real games
+
+Version 0.0.4 adds `reviewed_base_out`: outs, occupied bases and runs for all
+188 offensive events of the five reviewed team sides, rebuilt from MLB
+play-by-play feeds. The 179 batting events join one to one with
+`reviewed_scorecards`; nine steals, wild pitches, passed balls and pickoffs are
+credited to the runner. Every row matches the feed's post-play state, and each
+half-inning's runs match the official linescore. RE24 uses the published
+FanGraphs matrix (`run_expectancy_fangraphs`, 4.15 runs per game).
+
+| Team | Runs | RE24 |
+| --- | ---: | ---: |
+| New York Mets | 6 | 1.851 |
+| Arizona Diamondbacks | 4 | 0.312 |
+| Cleveland Guardians | 4 | -0.149 |
+| Minnesota Twins | 3 | -1.149 |
+| St. Louis Cardinals | 1 | -3.149 |
+
+![RE24 by player, five reviewed scorecards](analysis/re24_by_player.png)
+
+A team's RE24 for a game equals its runs minus 0.461 for each inning batted,
+which the tests check. One matrix is applied to all games, and totals over a
+few plate appearances are noisy.
+
 ## Structure and reproduction
 
 ```text
 daimondstats/
   DESCRIPTION, NAMESPACE, LICENSE, README.md
-  R/             # Four public functions and three dataset documents
+  R/             # Five public functions and dataset documents
   man/           # Installed help
-  data/          # Reviewed collection, original Twins example, fictional demo
+  data/          # Reviewed collection, base-out events, RE matrix, Twins example, demo
   data-raw/      # Source CSVs, audit, feed manifest, extraction/build scripts
   inst/extdata/  # Independent official game/player counting fixtures
-  tests/         # Core, personal-season, and reviewed-data tests
+  tests/         # Core, personal-season, reviewed-data, and real RE24 tests
+  vignettes/     # From scorecard to run value
 module 5/        # Updated chart, R script, numerical summary, progress PDF
-analysis/        # Earlier Week 4 inning plot and script
+analysis/        # RE24 plot and script; earlier Week 4 inning plot
 validation/      # Package-check log and verification explanation
 ```
 
 From the repository root:
 
 ```sh
-R CMD INSTALL daimondstats
 R CMD build daimondstats
-R CMD check --no-manual daimondstats_0.0.3.tar.gz
+R CMD INSTALL daimondstats_0.0.4.tar.gz
+R CMD check --no-manual daimondstats_0.0.4.tar.gz
+Rscript analysis/re24_by_player.R
 Rscript "module 5/Kim_Module5_batting_stats.R"
 ```
 
@@ -59,6 +87,9 @@ The chart script requires ggplot2; the package uses base R and requires R >= 4.1
 Rebuild the reviewed R dataset from its included CSV by running
 `Rscript data-raw/reviewed-scorecards.R` from the package root. The full source
 verification additionally requires the saved app results and downloaded feeds.
+`python3 data-raw/base-out-states.py FEED_DIR` rebuilds the base-out CSV from
+downloaded feeds; [their hashes](daimondstats/data-raw/base-out-manifest.json)
+are recorded.
 
 ## Verification and package checks
 
@@ -75,18 +106,18 @@ corrections; agreement is not an independent classifier-accuracy estimate.
 - [Official game totals](daimondstats/inst/extdata/reviewed_game_totals.csv)
 - [Official player totals](daimondstats/inst/extdata/reviewed_player_totals.csv)
 
-The October 25, 2026 `R CMD check --no-manual` on R 4.5.1 finished with
-**status OK**, including examples and all three test scripts.
+The November 8, 2026 `R CMD check --no-manual` of version 0.0.4 on R 4.5.1
+finished with **status OK**, including examples, all four test scripts and the
+vignette rebuild.
 [Check log](validation/R-CMD-check.log). Repository-index access was unavailable;
 PDF manual generation was not checked.
 
 ## Remaining work
 
-Obtain a complete team reference season and verified base-out event data,
-document an appropriate expectancy matrix, validate the season-comparison and
-RE24 functions on real records, and finish the vignette, technical documentation,
-nontechnical walkthroughs, and presentation. Current season-comparison and RE24
-examples still use fictional inputs.
+Connect `compare_personal_season()` to a complete real team schedule, since
+its example still uses fictional games, and finish the technical documentation,
+nontechnical walkthroughs, and presentation.
 
 AI assistance: An OpenAI assistant helped with implementation, verification,
-tests, documentation, the chart, and the progress update.
+tests, documentation, the chart, and the progress update. Claude helped with the
+version 0.0.4 base-out data, RE24 plot, vignette, and tests.

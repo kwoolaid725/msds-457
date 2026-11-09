@@ -18,11 +18,15 @@ Requires R 4.1.0 or later. From the root of a local clone of the
 [MSDS 457 repository](https://github.com/kwoolaid725/msds-457), run in a terminal:
 
 ```sh
-R CMD INSTALL daimondstats
+R CMD build daimondstats
+R CMD INSTALL daimondstats_0.0.4.tar.gz
 ```
 
+Building first includes the vignette; `R CMD INSTALL daimondstats` also works
+but skips it. Building the vignette needs `knitr` and `rmarkdown`.
+
 The runtime uses only packages distributed with R (`stats` and `utils`).
-`roxygen2` is an optional development dependency for generating help files.
+The plot uses base R graphics. `roxygen2` is an optional development dependency for generating help files.
 
 ## Basic usage
 
@@ -37,6 +41,9 @@ games <- data.frame(game_id = letters[1:8], team = "Demo", season = 2026,
 set.seed(457)
 result <- compare_personal_season(games, c("a", "b", "c"), simulations = 100)
 result$summary
+# Real RE24 for the five reviewed scorecards:
+impact <- calculate_run_impact(reviewed_base_out, run_expectancy_fangraphs)
+plot_run_impact(impact, top = 12)
 ```
 
 The comparison returns observed averages, a simulated reference range, and a
@@ -48,28 +55,35 @@ percentile. The range describes sampled game collections, not a causal effect.
 - `calculate_batting_stats()` returns player/game counts and BA, OBP, SLG, OPS.
 - `compare_personal_season()` samples comparable game collections.
 - `calculate_run_impact()` adds RE24 using a supplied 24-state expectancy table.
+- `plot_run_impact()` draws total RE24 by player and returns the totals.
 
 ## Data and current limits
 
 `reviewed_scorecards` contains 179 plate appearances from five team scorecards,
-spanning multiple teams and seasons. It is not a complete reference season and
-has no base-out transitions for RE24. The analytical examples are fictional.
+spanning multiple teams and seasons. It is not a complete reference season.
+`reviewed_base_out` adds MLB base-out transitions for the same team sides (188
+events, joined one to one with the 179 plate appearances), and
+`run_expectancy_fangraphs` is the published FanGraphs matrix. The season
+comparison example remains fictional.
 Two smaller datasets support learning and testing: `demo_scorecards` (11
 fictional entries for checking formulas by hand) and `twins_scorecard_2024`
 (35 Twins plays from April 29, 2024).
 Run-impact inputs must be independently verified by the caller. Review flagged
 plays before calculating batting statistics and avoid duplicate game imports.
 
-See `?compare_personal_season` and `?calculate_run_impact` for input contracts,
+The vignette, `vignette("from-scorecard-to-run-value")`, walks through the
+five scorecards from batting lines to RE24. See `?compare_personal_season` and
+`?calculate_run_impact` for input contracts,
 runnable examples, return values, and interpretation limits. The
 [scorecard data guide](inst/doc/scorecard-data-guide.md) retains detailed
 provenance, validation rules, and development checks.
 
 ## Development status and license
 
-Version 0.0.3 is preliminary. Complete-season adapters, a real-event RE24
-example, a plotting function, and a vignette remain planned. From the
+Version 0.0.4 adds real-event RE24 data, a plotting function, and a vignette.
+A complete-season adapter for `compare_personal_season()` remains planned. From the
 repository root, regenerate documentation with
 `roxygen2::roxygenise("daimondstats")`. The package uses the MIT license; see
 `LICENSE`. ChatGPT assisted with implementation and documentation, including
-this documentation review on November 1, 2026.
+the documentation review on November 1, 2026. Claude assisted with the
+version 0.0.4 base-out data, plot function, and vignette.

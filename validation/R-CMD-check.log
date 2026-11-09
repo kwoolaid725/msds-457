@@ -1,4 +1,4 @@
-* using log directory ‘/private/tmp/msds457-multigame/check/daimondstats.Rcheck’
+* using log directory ‘/private/tmp/claude-501/-Users-woohyunkim-Projects-Git-Obsidian-Second-Brain-wiki-northwestern-msds-msds-457/dc7ba8b5-eefe-4401-9417-a7a137567ccf/scratchpad/check/daimondstats.Rcheck’
 * using R version 4.5.1 (2025-06-13)
 * using platform: aarch64-apple-darwin20
 * R was compiled by
@@ -8,7 +8,7 @@
 * using session charset: UTF-8
 * using option ‘--no-manual’
 * checking for file ‘daimondstats/DESCRIPTION’ ... OK
-* this is package ‘daimondstats’ version ‘0.0.3’
+* this is package ‘daimondstats’ version ‘0.0.4’
 * package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... OK
@@ -21,6 +21,7 @@
 * checking whether package ‘daimondstats’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
+* checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
 * checking for left-over files ... OK
@@ -33,7 +34,6 @@
 * checking whether the package can be unloaded cleanly ... OK
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
-* checking loading without being on the library search path ... OK
 * checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
@@ -51,11 +51,17 @@
 * checking data for non-ASCII characters ... OK
 * checking LazyData ... OK
 * checking data for ASCII and uncompressed saves ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in ‘tests’ ... OK
 * checking tests ... OK
   Running ‘core.R’
   Running ‘personal-season.R’
   Running ‘reviewed-data.R’
+  Running ‘run-impact-real.R’
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes ... OK
+* checking re-building of vignette outputs ... OK
 * DONE
 Status: OK

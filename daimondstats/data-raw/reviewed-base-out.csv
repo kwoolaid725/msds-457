@@ -1,0 +1,189 @@
+game_id,team,event_id,at_bat_index,inning,event_type,batting_event,player,player_id,outs_before,bases_before,outs_after,bases_after,runs_scored,verified
+825071,Arizona Diamondbacks,5,5,1,field_out,True,Ketel Marte,606466,0,0,1,0,0,True
+825071,Arizona Diamondbacks,6,6,1,walk,True,Geraldo Perdomo,672695,1,0,1,1,0,True
+825071,Arizona Diamondbacks,7,7,1,field_out,True,Corbin Carroll,682998,1,1,2,4,0,True
+825071,Arizona Diamondbacks,8,8,1,single,True,Gabriel Moreno,672515,2,4,2,1,1,True
+825071,Arizona Diamondbacks,9,9,1,field_out,True,Lourdes Gurriel Jr.,666971,2,1,3,0,0,True
+825071,Arizona Diamondbacks,14,14,2,field_out,True,Nolan Arenado,571448,0,0,1,0,0,True
+825071,Arizona Diamondbacks,15,15,2,strikeout,True,Jordan Lawlar,691783,1,0,2,0,0,True
+825071,Arizona Diamondbacks,16,16,2,strikeout,True,Pavin Smith,656976,2,0,3,0,0,True
+825071,Arizona Diamondbacks,22,22,3,field_out,True,Tommy Troy,694371,0,0,1,0,0,True
+825071,Arizona Diamondbacks,23,23,3,field_out,True,Ketel Marte,606466,1,0,2,0,0,True
+825071,Arizona Diamondbacks,24,24,3,field_out,True,Geraldo Perdomo,672695,2,0,3,0,0,True
+825071,Arizona Diamondbacks,28,28,4,single,True,Corbin Carroll,682998,0,0,0,1,0,True
+825071,Arizona Diamondbacks,29.2,29,4,stolen_base_2b,False,Corbin Carroll,682998,0,1,0,4,0,True
+825071,Arizona Diamondbacks,29,29,4,field_out,True,Gabriel Moreno,672515,0,4,1,4,0,True
+825071,Arizona Diamondbacks,30,30,4,single,True,Lourdes Gurriel Jr.,666971,1,4,1,1,1,True
+825071,Arizona Diamondbacks,31,31,4,field_out,True,Nolan Arenado,571448,1,1,2,1,0,True
+825071,Arizona Diamondbacks,32,32,4,field_out,True,Jordan Lawlar,691783,2,1,3,0,0,True
+825071,Arizona Diamondbacks,38,38,5,single,True,Pavin Smith,656976,0,0,0,1,0,True
+825071,Arizona Diamondbacks,39,39,5,field_out,True,Tommy Troy,694371,0,1,1,2,0,True
+825071,Arizona Diamondbacks,40,40,5,field_out,True,Ketel Marte,606466,1,2,2,4,0,True
+825071,Arizona Diamondbacks,41,41,5,walk,True,Geraldo Perdomo,672695,2,4,2,5,0,True
+825071,Arizona Diamondbacks,42,42,5,field_out,True,Corbin Carroll,682998,2,5,3,0,0,True
+825071,Arizona Diamondbacks,47,47,6,field_out,True,Gabriel Moreno,672515,0,0,1,0,0,True
+825071,Arizona Diamondbacks,48,48,6,field_out,True,Lourdes Gurriel Jr.,666971,1,0,2,0,0,True
+825071,Arizona Diamondbacks,49,49,6,strikeout,True,Nolan Arenado,571448,2,0,3,0,0,True
+825071,Arizona Diamondbacks,53,53,7,hit_by_pitch,True,Jordan Lawlar,691783,0,0,0,1,0,True
+825071,Arizona Diamondbacks,54.1,54,7,pickoff_1b,False,Jordan Lawlar,691783,0,1,1,0,0,True
+825071,Arizona Diamondbacks,54,54,7,home_run,True,Pavin Smith,656976,1,0,1,0,1,True
+825071,Arizona Diamondbacks,55,55,7,field_out,True,Tommy Troy,694371,1,0,2,0,0,True
+825071,Arizona Diamondbacks,56,56,7,single,True,Ketel Marte,606466,2,0,2,1,0,True
+825071,Arizona Diamondbacks,57,57,7,double,True,Geraldo Perdomo,672695,2,1,2,2,1,True
+825071,Arizona Diamondbacks,58,58,7,field_out,True,Corbin Carroll,682998,2,2,3,0,0,True
+825071,Arizona Diamondbacks,62,62,8,field_out,True,Gabriel Moreno,672515,0,0,1,0,0,True
+825071,Arizona Diamondbacks,63,63,8,field_out,True,Lourdes Gurriel Jr.,666971,1,0,2,0,0,True
+825071,Arizona Diamondbacks,64,64,8,single,True,Nolan Arenado,571448,2,0,2,1,0,True
+825071,Arizona Diamondbacks,65.1,65,8,stolen_base_2b,False,Nolan Arenado,571448,2,1,2,2,0,True
+825071,Arizona Diamondbacks,65,65,8,walk,True,Jordan Lawlar,691783,2,2,2,3,0,True
+825071,Arizona Diamondbacks,66,66,8,field_out,True,Pavin Smith,656976,2,3,3,0,0,True
+822782,St. Louis Cardinals,0,0,1,field_out,True,JJ Wetherholt,802139,0,0,1,0,0,True
+822782,St. Louis Cardinals,1,1,1,strikeout,True,Jordan Walker,691023,1,0,2,0,0,True
+822782,St. Louis Cardinals,2,2,1,walk,True,Alec Burleson,676475,2,0,2,1,0,True
+822782,St. Louis Cardinals,3,3,1,strikeout,True,Iván Herrera,671056,2,1,3,0,0,True
+822782,St. Louis Cardinals,7,7,2,field_out,True,Lars Nootbaar,663457,0,0,1,0,0,True
+822782,St. Louis Cardinals,8,8,2,walk,True,Masyn Winn,691026,1,0,1,1,0,True
+822782,St. Louis Cardinals,9,9,2,strikeout,True,Nathan Church,701675,1,1,2,1,0,True
+822782,St. Louis Cardinals,10.3,10,2,wild_pitch,False,Masyn Winn,691026,2,1,2,2,0,True
+822782,St. Louis Cardinals,10,10,2,field_out,True,José Fermín,665877,2,2,3,0,0,True
+822782,St. Louis Cardinals,14,14,3,field_out,True,Jimmy Crooks,699625,0,0,1,0,0,True
+822782,St. Louis Cardinals,15,15,3,field_out,True,JJ Wetherholt,802139,1,0,2,0,0,True
+822782,St. Louis Cardinals,16,16,3,field_out,True,Jordan Walker,691023,2,0,3,0,0,True
+822782,St. Louis Cardinals,22,22,4,double,True,Alec Burleson,676475,0,0,0,2,0,True
+822782,St. Louis Cardinals,23,23,4,field_out,True,Iván Herrera,671056,0,2,1,2,0,True
+822782,St. Louis Cardinals,24,24,4,strikeout,True,Lars Nootbaar,663457,1,2,2,2,0,True
+822782,St. Louis Cardinals,25,25,4,field_out,True,Masyn Winn,691026,2,2,3,0,0,True
+822782,St. Louis Cardinals,29,29,5,single,True,Nathan Church,701675,0,0,0,1,0,True
+822782,St. Louis Cardinals,30.2,30,5,stolen_base_2b,False,Nathan Church,701675,0,1,0,2,0,True
+822782,St. Louis Cardinals,30,30,5,field_out,True,José Fermín,665877,0,2,1,4,0,True
+822782,St. Louis Cardinals,31,31,5,strikeout,True,Jimmy Crooks,699625,1,4,2,4,0,True
+822782,St. Louis Cardinals,32,32,5,walk,True,JJ Wetherholt,802139,2,4,2,5,0,True
+822782,St. Louis Cardinals,33,33,5,single,True,Jordan Walker,691023,2,5,2,5,1,True
+822782,St. Louis Cardinals,34,34,5,strikeout,True,Alec Burleson,676475,2,5,3,0,0,True
+822782,St. Louis Cardinals,40,40,6,field_out,True,Iván Herrera,671056,0,0,1,0,0,True
+822782,St. Louis Cardinals,41,41,6,field_out,True,Lars Nootbaar,663457,1,0,2,0,0,True
+822782,St. Louis Cardinals,42,42,6,strikeout,True,Masyn Winn,691026,2,0,3,0,0,True
+822782,St. Louis Cardinals,48,48,7,single,True,Nathan Church,701675,0,0,0,1,0,True
+822782,St. Louis Cardinals,49,49,7,field_out,True,José Fermín,665877,0,1,1,2,0,True
+822782,St. Louis Cardinals,50,50,7,strikeout,True,Jimmy Crooks,699625,1,2,2,2,0,True
+822782,St. Louis Cardinals,51,51,7,strikeout,True,JJ Wetherholt,802139,2,2,3,0,0,True
+822782,St. Louis Cardinals,57,57,8,strikeout,True,Jordan Walker,691023,0,0,1,0,0,True
+822782,St. Louis Cardinals,58,58,8,strikeout,True,Alec Burleson,676475,1,0,2,0,0,True
+822782,St. Louis Cardinals,59,59,8,field_out,True,Iván Herrera,671056,2,0,3,0,0,True
+822782,St. Louis Cardinals,66,66,9,field_out,True,Lars Nootbaar,663457,0,0,1,0,0,True
+822782,St. Louis Cardinals,67,67,9,single,True,Masyn Winn,691026,1,0,1,1,0,True
+822782,St. Louis Cardinals,68,68,9,field_out,True,Nathan Church,701675,1,1,2,1,0,True
+822782,St. Louis Cardinals,69,69,9,force_out,True,José Fermín,665877,2,1,3,0,0,True
+746804,Minnesota Twins,0,0,1,field_out,True,Ryan Jeffers,680777,0,0,1,0,0,True
+746804,Minnesota Twins,1,1,1,field_out,True,Carlos Correa,621043,1,0,2,0,0,True
+746804,Minnesota Twins,2,2,1,strikeout,True,Jose F Miranda,669304,2,0,3,0,0,True
+746804,Minnesota Twins,8,8,2,strikeout,True,Byron Buxton,621439,0,0,1,0,0,True
+746804,Minnesota Twins,9,9,2,walk,True,Manuel Margot,622534,1,0,1,1,0,True
+746804,Minnesota Twins,10,10,2,home_run,True,Carlos Santana,467793,1,1,1,0,2,True
+746804,Minnesota Twins,11,11,2,single,True,Willi Castro,650489,1,0,1,1,0,True
+746804,Minnesota Twins,12.4,12,2,stolen_base_2b,False,Willi Castro,650489,1,1,1,2,0,True
+746804,Minnesota Twins,12,12,2,strikeout,True,Christian Vázquez,543877,1,2,2,2,0,True
+746804,Minnesota Twins,13,13,2,field_out,True,Kyle Farmer,571657,2,2,3,0,0,True
+746804,Minnesota Twins,17,17,3,field_out,True,Ryan Jeffers,680777,0,0,1,0,0,True
+746804,Minnesota Twins,18,18,3,field_out,True,Carlos Correa,621043,1,0,2,0,0,True
+746804,Minnesota Twins,19,19,3,field_out,True,Jose F Miranda,669304,2,0,3,0,0,True
+746804,Minnesota Twins,24,24,4,field_out,True,Byron Buxton,621439,0,0,1,0,0,True
+746804,Minnesota Twins,25,25,4,strikeout,True,Manuel Margot,622534,1,0,2,0,0,True
+746804,Minnesota Twins,26,26,4,strikeout,True,Carlos Santana,467793,2,0,3,0,0,True
+746804,Minnesota Twins,32,32,5,field_out,True,Willi Castro,650489,0,0,1,0,0,True
+746804,Minnesota Twins,33,33,5,strikeout,True,Christian Vázquez,543877,1,0,2,0,0,True
+746804,Minnesota Twins,34,34,5,strikeout,True,Kyle Farmer,571657,2,0,3,0,0,True
+746804,Minnesota Twins,38,38,6,walk,True,Ryan Jeffers,680777,0,0,0,1,0,True
+746804,Minnesota Twins,39,39,6,field_out,True,Carlos Correa,621043,0,1,1,1,0,True
+746804,Minnesota Twins,40.2,40,6,passed_ball,False,Ryan Jeffers,680777,1,1,1,2,0,True
+746804,Minnesota Twins,40,40,6,walk,True,Edouard Julien,666397,1,2,1,3,0,True
+746804,Minnesota Twins,41,41,6,field_out,True,Byron Buxton,621439,1,3,2,3,0,True
+746804,Minnesota Twins,42,42,6,field_out,True,Max Kepler,596146,2,3,3,0,0,True
+746804,Minnesota Twins,46,46,7,field_out,True,Carlos Santana,467793,0,0,1,0,0,True
+746804,Minnesota Twins,47,47,7,strikeout,True,Willi Castro,650489,1,0,2,0,0,True
+746804,Minnesota Twins,48,48,7,field_error,True,Christian Vázquez,543877,2,0,2,1,0,True
+746804,Minnesota Twins,49.7,49,7,stolen_base_2b,False,Christian Vázquez,543877,2,1,2,2,0,True
+746804,Minnesota Twins,49,49,7,field_out,True,Alex Kirilloff,666135,2,2,3,0,0,True
+746804,Minnesota Twins,53,53,8,field_out,True,Ryan Jeffers,680777,0,0,1,0,0,True
+746804,Minnesota Twins,54,54,8,strikeout,True,Carlos Correa,621043,1,0,2,0,0,True
+746804,Minnesota Twins,55,55,8,field_out,True,Edouard Julien,666397,2,0,3,0,0,True
+746804,Minnesota Twins,61,61,9,double,True,Byron Buxton,621439,0,0,0,2,0,True
+746804,Minnesota Twins,62,62,9,single,True,Max Kepler,596146,0,2,0,1,1,True
+746804,Minnesota Twins,63,63,9,strikeout,True,Carlos Santana,467793,0,1,1,1,0,True
+746804,Minnesota Twins,64,64,9,field_out,True,Willi Castro,650489,1,1,2,1,0,True
+746804,Minnesota Twins,65,65,9,strikeout,True,Christian Vázquez,543877,2,1,3,0,0,True
+823774,Cleveland Guardians,0,0,1,field_out,True,Travis Bazzana,683953,0,0,1,0,0,True
+823774,Cleveland Guardians,1,1,1,strikeout,True,Kyle Manzardo,700932,1,0,2,0,0,True
+823774,Cleveland Guardians,2,2,1,strikeout,True,Brayan Rocchio,677587,2,0,3,0,0,True
+823774,Cleveland Guardians,10,10,2,strikeout,True,Rhys Hoskins,656555,0,0,1,0,0,True
+823774,Cleveland Guardians,11,11,2,strikeout,True,Daniel Schneemann,682177,1,0,2,0,0,True
+823774,Cleveland Guardians,12,12,2,field_out,True,David Fry,681807,2,0,3,0,0,True
+823774,Cleveland Guardians,19,19,3,field_out,True,Steven Kwan,680757,0,0,1,0,0,True
+823774,Cleveland Guardians,20,20,3,field_out,True,Petey Halpin,690984,1,0,2,0,0,True
+823774,Cleveland Guardians,21,21,3,strikeout,True,Patrick Bailey,672275,2,0,3,0,0,True
+823774,Cleveland Guardians,25,25,4,walk,True,Travis Bazzana,683953,0,0,0,1,0,True
+823774,Cleveland Guardians,26,26,4,single,True,Kyle Manzardo,700932,0,1,0,3,0,True
+823774,Cleveland Guardians,27,27,4,walk,True,Brayan Rocchio,677587,0,3,0,7,0,True
+823774,Cleveland Guardians,28,28,4,strikeout,True,Rhys Hoskins,656555,0,7,1,7,0,True
+823774,Cleveland Guardians,29,29,4,home_run,True,Daniel Schneemann,682177,1,7,1,0,4,True
+823774,Cleveland Guardians,30,30,4,field_out,True,David Fry,681807,1,0,2,0,0,True
+823774,Cleveland Guardians,31,31,4,walk,True,Steven Kwan,680757,2,0,2,1,0,True
+823774,Cleveland Guardians,32,32,4,field_out,True,Petey Halpin,690984,2,1,3,0,0,True
+823774,Cleveland Guardians,38,38,5,strikeout,True,Patrick Bailey,672275,0,0,1,0,0,True
+823774,Cleveland Guardians,39,39,5,double,True,Travis Bazzana,683953,1,0,1,2,0,True
+823774,Cleveland Guardians,40,40,5,strikeout,True,Kyle Manzardo,700932,1,2,2,2,0,True
+823774,Cleveland Guardians,41,41,5,strikeout,True,Brayan Rocchio,677587,2,2,3,0,0,True
+823774,Cleveland Guardians,45,45,6,strikeout,True,Rhys Hoskins,656555,0,0,1,0,0,True
+823774,Cleveland Guardians,46,46,6,strikeout,True,Daniel Schneemann,682177,1,0,2,0,0,True
+823774,Cleveland Guardians,47,47,6,field_out,True,David Fry,681807,2,0,3,0,0,True
+823774,Cleveland Guardians,51,51,7,strikeout,True,Steven Kwan,680757,0,0,1,0,0,True
+823774,Cleveland Guardians,52,52,7,strikeout,True,Petey Halpin,690984,1,0,2,0,0,True
+823774,Cleveland Guardians,53,53,7,field_out,True,Patrick Bailey,672275,2,0,3,0,0,True
+823774,Cleveland Guardians,57,57,8,field_out,True,Travis Bazzana,683953,0,0,1,0,0,True
+823774,Cleveland Guardians,58,58,8,field_out,True,Kyle Manzardo,700932,1,0,2,0,0,True
+823774,Cleveland Guardians,59,59,8,field_out,True,Brayan Rocchio,677587,2,0,3,0,0,True
+823774,Cleveland Guardians,67,67,9,field_out,True,Rhys Hoskins,656555,0,0,1,0,0,True
+823774,Cleveland Guardians,68,68,9,field_out,True,Daniel Schneemann,682177,1,0,2,0,0,True
+823774,Cleveland Guardians,69,69,9,field_out,True,David Fry,681807,2,0,3,0,0,True
+823644,New York Mets,4,4,1,strikeout,True,Francisco Lindor,596019,0,0,1,0,0,True
+823644,New York Mets,5,5,1,single,True,Luis Robert Jr.,673357,1,0,1,1,0,True
+823644,New York Mets,6,6,1,field_out,True,Jorge Polanco,593871,1,1,2,2,0,True
+823644,New York Mets,7,7,1,single,True,Bo Bichette,666182,2,2,2,1,1,True
+823644,New York Mets,8,8,1,field_out,True,Mark Vientos,668901,2,1,3,0,0,True
+823644,New York Mets,16,16,2,field_out,True,Francisco Alvarez,682626,0,0,1,0,0,True
+823644,New York Mets,17,17,2,strikeout,True,Carson Benge,701807,1,0,2,0,0,True
+823644,New York Mets,18,18,2,field_out,True,Marcus Semien,543760,2,0,3,0,0,True
+823644,New York Mets,27,27,3,single,True,Tyrone Taylor,621438,0,0,0,1,0,True
+823644,New York Mets,28,28,3,field_out,True,Francisco Lindor,596019,0,1,1,1,0,True
+823644,New York Mets,29,29,3,walk,True,Luis Robert Jr.,673357,1,1,1,3,0,True
+823644,New York Mets,30,30,3,force_out,True,Jorge Polanco,593871,1,3,2,5,0,True
+823644,New York Mets,31,31,3,walk,True,Bo Bichette,666182,2,5,2,7,0,True
+823644,New York Mets,32,32,3,field_out,True,Mark Vientos,668901,2,7,3,0,0,True
+823644,New York Mets,37,37,4,field_out,True,Francisco Alvarez,682626,0,0,1,0,0,True
+823644,New York Mets,38,38,4,single,True,Carson Benge,701807,1,0,1,1,0,True
+823644,New York Mets,39,39,4,strikeout,True,Marcus Semien,543760,1,1,2,1,0,True
+823644,New York Mets,40.3,40,4,stolen_base_2b,False,Carson Benge,701807,2,1,2,2,0,True
+823644,New York Mets,40,40,4,field_out,True,Tyrone Taylor,621438,2,2,3,0,0,True
+823644,New York Mets,44,44,5,single,True,Francisco Lindor,596019,0,0,0,1,0,True
+823644,New York Mets,45,45,5,strikeout,True,Luis Robert Jr.,673357,0,1,1,1,0,True
+823644,New York Mets,46,46,5,strikeout,True,Jorge Polanco,593871,1,1,2,1,0,True
+823644,New York Mets,47,47,5,home_run,True,Bo Bichette,666182,2,1,2,0,2,True
+823644,New York Mets,48,48,5,field_out,True,Mark Vientos,668901,2,0,3,0,0,True
+823644,New York Mets,53,53,6,home_run,True,Francisco Alvarez,682626,0,0,0,0,1,True
+823644,New York Mets,54,54,6,walk,True,Carson Benge,701807,0,0,0,1,0,True
+823644,New York Mets,55,55,6,single,True,Marcus Semien,543760,0,1,0,5,0,True
+823644,New York Mets,56,56,6,sac_fly,True,Brett Baty,683146,0,5,1,1,1,True
+823644,New York Mets,57,57,6,field_out,True,Francisco Lindor,596019,1,1,2,1,0,True
+823644,New York Mets,58,58,6,force_out,True,Luis Robert Jr.,673357,2,1,3,0,0,True
+823644,New York Mets,63,63,7,home_run,True,Jorge Polanco,593871,0,0,0,0,1,True
+823644,New York Mets,64,64,7,walk,True,Bo Bichette,666182,0,0,0,1,0,True
+823644,New York Mets,65,65,7,strikeout,True,Mark Vientos,668901,0,1,1,1,0,True
+823644,New York Mets,66,66,7,single,True,Francisco Alvarez,682626,1,1,1,3,0,True
+823644,New York Mets,67,67,7,field_out,True,Carson Benge,701807,1,3,2,3,0,True
+823644,New York Mets,68,68,7,field_out,True,Marcus Semien,543760,2,3,3,0,0,True
+823644,New York Mets,76,76,8,strikeout,True,Brett Baty,683146,0,0,1,0,0,True
+823644,New York Mets,77,77,8,strikeout,True,Francisco Lindor,596019,1,0,2,0,0,True
+823644,New York Mets,78,78,8,strikeout,True,Luis Robert Jr.,673357,2,0,3,0,0,True
+823644,New York Mets,83,83,9,field_out,True,Jorge Polanco,593871,0,0,1,0,0,True
+823644,New York Mets,84,84,9,strikeout,True,Bo Bichette,666182,1,0,2,0,0,True
+823644,New York Mets,85,85,9,field_out,True,Mark Vientos,668901,2,0,3,0,0,True

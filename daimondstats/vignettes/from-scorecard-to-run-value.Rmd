@@ -1,0 +1,124 @@
+---
+title: "From scorecard to run value"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{From scorecard to run value}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>", fig.width = 7, fig.height = 4.5)
+```
+
+A scorecard records what each batter did. It does not say how much each
+result was worth. A two-out single with the bases empty and a bases-loaded
+single both count as one hit, but the second changes the game far more. This
+vignette walks through five real scorecards, from batting lines to
+situational run value, called RE24.
+
+```{r setup}
+library(daimondstats)
+```
+
+## 1. Reviewed scorecard plays
+
+`reviewed_scorecards` holds 179 plate appearances read from five handwritten
+team scorecards by the dAImond Inning app and then reviewed against MLB game
+records. Each card covers one team's side of one game.
+
+```{r}
+d <- reviewed_scorecards
+table(d$team)
+head(d[c("game_id", "player", "inning", "play")])
+```
+
+Batting statistics come straight from these plays. Team rates pool counts
+across players rather than averaging player rates.
+
+```{r}
+batting <- calculate_batting_stats(d)
+counts <- c("PA", "AB", "H", "BB", "HBP", "SF", "TB")
+team <- aggregate(batting[counts], batting["team"], sum)
+team$OBP <- with(team, (H + BB + HBP) / (AB + BB + HBP + SF))
+team$SLG <- with(team, TB / AB)
+team[c("team", "PA", "H", "BB", "OBP", "SLG")]
+```
+
+## 2. Adding the base-out state
+
+A scorecard reader sees the result of each plate appearance, not where the
+runners stood. `reviewed_base_out` adds that context from MLB play-by-play
+records: outs and occupied bases before and after each event, and runs scored
+on it. Base masks add 1 for first, 2 for second and 4 for third, so 5 means
+runners on first and third.
+
+The 179 batting events join one to one with the scorecard plays by game and
+event ID. Nine more rows are steals, wild pitches, a passed ball and a pickoff,
+which are credited to the runner.
+
+```{r}
+b <- reviewed_base_out
+joined <- merge(d, b[b$batting_event, ], by = c("game_id", "event_id"))
+nrow(joined)
+table(b$event_type[!b$batting_event])
+```
+
+## 3. Run expectancy and RE24
+
+A run expectancy matrix gives the average runs scored from each of the 24
+base-out states to the end of the inning. The package includes the published
+FanGraphs matrix for a run environment of 4.15 runs per game.
+
+```{r}
+xtabs(expected_runs ~ bases + outs, run_expectancy_fangraphs)
+```
+
+RE24 for an event is the runs scored on it plus the expectancy after it, minus
+the expectancy before it. `calculate_run_impact()` applies the matrix and
+rejects any row not marked as verified.
+
+```{r}
+impact <- calculate_run_impact(b, run_expectancy_fangraphs)
+impact[impact$game_id == "825071" & impact$inning == 4,
+       c("player", "event_type", "outs_before", "bases_before",
+         "outs_after", "bases_after", "runs_scored", "re24")]
+```
+
+A useful check: every inning starts with the bases empty and no outs (0.461
+expected runs) and ends with three outs (zero), so a team's RE24 for a game is
+its runs minus 0.461 for each inning it batted.
+
+```{r}
+aggregate(cbind(runs_scored, re24) ~ team, impact, sum)
+```
+
+## 4. Who added the most
+
+`plot_run_impact()` totals RE24 by player and draws the largest totals.
+
+```{r}
+top <- plot_run_impact(impact, top = 12,
+                       main = "RE24 by player, five reviewed scorecards")
+head(top)
+```
+
+The ranking can differ from batting average. A player with one hit can rank
+above a player with two if that hit came with runners on.
+
+## Limits
+
+- Five games from different teams and seasons are a demonstration, not a
+  season. Totals over three to five plate appearances are noisy.
+- One published matrix is applied to every game. Real run environments vary
+  by season and park.
+- RE24 measures what happened in context. It is not a prediction and does not
+  show clutch ability.
+- Base-out states come from MLB records, not from the scorecard reader. For
+  scorecards of games without MLB records, runner positions would have to be
+  entered or checked by hand before `calculate_run_impact()` can be used.
+
+## Reference
+
+Weinberg, Neil. 2014. "RE24." FanGraphs, July 30.
+<https://library.fangraphs.com/misc/re24/>.

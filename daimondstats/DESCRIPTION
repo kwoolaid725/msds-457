@@ -1,11 +1,13 @@
 Package: daimondstats
 Title: Personal Baseball Seasons and Situational Run Value
-Version: 0.0.3
+Version: 0.0.4
 Authors@R: person("Woohyun", "Kim", email = "woodenkim92@gmail.com",
     role = c("aut", "cre"))
 Description: Compares a personal collection of baseball games with a reference
     season through stratified resampling and evaluates verified plays using
-    run expectancy. Also imports reviewed scorecard CSV exports and calculates
+    run expectancy. Includes MLB base-out transitions for five reviewed
+    scorecards, a published run expectancy matrix, and a run impact plot.
+    Also imports reviewed scorecard CSV exports and calculates
     batting statistics. Input checks reject unresolved scorecard readings,
     duplicate reference game identifiers, and unverified event rows.
 License: MIT + file LICENSE
@@ -13,10 +15,14 @@ Encoding: UTF-8
 LazyData: true
 Depends: R (>= 4.1.0)
 Imports:
+    graphics,
     stats,
     utils
 Suggests:
+    knitr,
+    rmarkdown,
     roxygen2
+VignetteBuilder: knitr
 URL: https://github.com/kwoolaid725/msds-457/tree/main/daimondstats
 Config/roxygen2/version: 8.1.1
 Config/roxygen2/markdown: TRUE
