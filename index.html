@@ -63,10 +63,11 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>Requires R 4.1.0 or later. From the root of a local clone of the <a href="https://github.com/kwoolaid725/msds-457" class="external-link">MSDS 457 repository</a>, run in a terminal:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">R</span> CMD build daimondstats</span>
-<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="ex">R</span> CMD INSTALL daimondstats_0.0.5.tar.gz</span></code></pre></div>
-<p>Building first includes the vignette; <code>R CMD INSTALL daimondstats</code> also works but skips it. Building the vignette needs <code>knitr</code> and <code>rmarkdown</code>.</p>
+<p>Requires R 4.1.0 or later. Install from GitHub:</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># install.packages("remotes")</span></span>
+<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"kwoolaid725/msds-457"</span>, subdir <span class="op">=</span> <span class="st">"daimondstats"</span><span class="op">)</span></span></code></pre></div>
+<p>To include the vignette, add <code>build_vignettes = TRUE</code> (needs <code>knitr</code> and <code>rmarkdown</code>). It is also on this site under Articles.</p>
 <p>The runtime uses <code>jsonlite</code> to read MLB schedules plus packages distributed with R (<code>graphics</code>, <code>stats</code>, <code>utils</code>); the plot uses base R graphics. <code>roxygen2</code> is an optional development dependency for generating help files.</p>
 </div>
 <div class="section level2">
@@ -90,6 +91,9 @@
 <span><span class="co"># Real RE24 for the five reviewed scorecards:</span></span>
 <span><span class="va">impact</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/calculate_run_impact.html">calculate_run_impact</a></span><span class="op">(</span><span class="va">reviewed_base_out</span>, <span class="va">run_expectancy_fangraphs</span><span class="op">)</span></span>
 <span><span class="fu"><a href="reference/plot_run_impact.html">plot_run_impact</a></span><span class="op">(</span><span class="va">impact</span>, top <span class="op">=</span> <span class="fl">12</span><span class="op">)</span></span></code></pre></div>
+<div class="float">
+<img src="reference/figures/README-run-impact.png" alt="Horizontal bar chart of total RE24 for the 12 players with the largest totals across five reviewed scorecards"><div class="figcaption">Horizontal bar chart of total RE24 for the 12 players with the largest totals across five reviewed scorecards</div>
+</div>
 <p>The comparison returns observed averages, a simulated reference range, and a percentile. The range describes sampled game collections, not a causal effect.</p>
 </div>
 <div class="section level2">
