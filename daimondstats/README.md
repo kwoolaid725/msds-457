@@ -14,16 +14,15 @@ a game changes its outcome.
 
 ## Installation
 
-Requires R 4.1.0 or later. From the root of a local clone of the
-[MSDS 457 repository](https://github.com/kwoolaid725/msds-457), run in a terminal:
+Requires R 4.1.0 or later. Install from GitHub:
 
-```sh
-R CMD build daimondstats
-R CMD INSTALL daimondstats_0.0.5.tar.gz
+```r
+# install.packages("remotes")
+remotes::install_github("kwoolaid725/msds-457", subdir = "daimondstats")
 ```
 
-Building first includes the vignette; `R CMD INSTALL daimondstats` also works
-but skips it. Building the vignette needs `knitr` and `rmarkdown`.
+To include the vignette, add `build_vignettes = TRUE` (needs `knitr` and
+`rmarkdown`). It is also on this site under Articles.
 
 The runtime uses `jsonlite` to read MLB schedules plus packages distributed
 with R (`graphics`, `stats`, `utils`); the plot uses base R graphics. `roxygen2` is an optional development dependency for generating help files.
@@ -49,6 +48,8 @@ result$summary
 impact <- calculate_run_impact(reviewed_base_out, run_expectancy_fangraphs)
 plot_run_impact(impact, top = 12)
 ```
+
+![Horizontal bar chart of total RE24 for the 12 players with the largest totals across five reviewed scorecards](man/figures/README-run-impact.png)
 
 The comparison returns observed averages, a simulated reference range, and a
 percentile. The range describes sampled game collections, not a causal effect.
