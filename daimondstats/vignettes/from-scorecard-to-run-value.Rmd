@@ -98,7 +98,7 @@ aggregate(cbind(runs_scored, re24) ~ team, impact, sum)
 
 `plot_run_impact()` totals RE24 by player and draws the largest totals.
 
-```{r}
+```{r run-impact-plot, fig.alt = "Horizontal bar chart of summed RE24 for the 12 players with the largest totals across five reviewed scorecards."}
 top <- plot_run_impact(impact, top = 12,
                        main = "RE24 by player, five reviewed scorecards")
 head(top)
@@ -130,7 +130,7 @@ one$summary[c("personal_mean", "season_mean", "reference_low",
 The same call works for a larger collection. Suppose a fan scored every Twins
 home game in April 2024:
 
-```{r}
+```{r april-histogram, fig.alt = "Histogram of winning percentages from simulated 12-game Twins samples, with a vertical line marking the April home games."}
 april <- subset(twins, home & format(game_date, "%Y-%m") == "2024-04")
 set.seed(457)
 many <- compare_personal_season(twins, april$game_id)

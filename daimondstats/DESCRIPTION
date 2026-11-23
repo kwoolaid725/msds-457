@@ -25,6 +25,7 @@ Suggests:
     rmarkdown,
     roxygen2
 VignetteBuilder: knitr
-URL: https://github.com/kwoolaid725/msds-457/tree/main/daimondstats
+URL: https://kwoolaid725.github.io/msds-457/,
+    https://github.com/kwoolaid725/msds-457/tree/main/daimondstats
 Config/roxygen2/version: 8.1.1
 Config/roxygen2/markdown: TRUE

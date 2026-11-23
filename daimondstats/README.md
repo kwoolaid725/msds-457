@@ -81,7 +81,7 @@ The vignette, `vignette("from-scorecard-to-run-value")`, walks through the
 five scorecards from batting lines to RE24. See `?compare_personal_season` and
 `?calculate_run_impact` for input contracts,
 runnable examples, return values, and interpretation limits. The
-[scorecard data guide](inst/doc/scorecard-data-guide.md) retains detailed
+[scorecard data guide](https://github.com/kwoolaid725/msds-457/blob/main/daimondstats/inst/doc/scorecard-data-guide.md) retains detailed
 provenance, validation rules, and development checks.
 
 ## Development status and license

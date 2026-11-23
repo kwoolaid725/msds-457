@@ -1,0 +1,36 @@
+url: https://kwoolaid725.github.io/msds-457/
+
+template:
+  bootstrap: 5
+
+navbar:
+  structure:
+    left: [intro, reference, articles]
+    right: [search, github]
+  components:
+    github:
+      icon: fa-github
+      href: https://github.com/kwoolaid725/msds-457/tree/main/daimondstats
+      aria-label: GitHub
+
+reference:
+- title: Import and batting statistics
+  contents:
+  - import_scorecards
+  - calculate_batting_stats
+- title: Run value
+  contents:
+  - calculate_run_impact
+  - plot_run_impact
+- title: Personal season comparison
+  contents:
+  - season_games
+  - compare_personal_season
+- title: Datasets
+  contents:
+  - reviewed_scorecards
+  - reviewed_base_out
+  - run_expectancy_fangraphs
+  - reviewed_team_seasons
+  - twins_scorecard_2024
+  - demo_scorecards
