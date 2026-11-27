@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">daimondstats</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.5</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +18,8 @@
       <ul class="navbar-nav me-auto"><li class="nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/from-scorecard-to-run-value.html">From scorecard to run value</a></li>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/coaching-a-season.html">Coaching a season from paper scorecards</a></li>
+    <li><a class="dropdown-item" href="../articles/from-scorecard-to-run-value.html">From scorecard to run value</a></li>
   </ul></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json"></form></li>
@@ -35,6 +36,20 @@
       <small>Source: <a href="https://github.com/kwoolaid725/msds-457/blob/HEAD/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
     </div>
 
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="0.1.0" id="daimondstats-010">daimondstats 0.1.0<a class="anchor" aria-label="anchor" href="#daimondstats-010"></a></h2>
+<ul><li>Connects to the dAImond Inning app: <code><a href="../reference/daimond_auth.html">daimond_auth()</a></code> stores a personal API key for the session and <code><a href="../reference/daimond_games.html">daimond_games()</a></code> downloads reviewed plays and pitcher lines. Errors explain missing or revoked keys, plans without API access, and rate limits.</li>
+<li>New <code><a href="../reference/calculate_youth_stats.html">calculate_youth_stats()</a></code>: OBPE (on base including reaching on error), ISO, strikeout and walk rates, and BABIP, pooled across games, with a small-sample flag.</li>
+<li>New <code><a href="../reference/check_pitch_counts.html">check_pitch_counts()</a></code> and dataset <code>pitch_smart_rules</code>: Pitch Smart daily maximums and rest days for ages 7 to 18. Same-day appearances are added together, and a short outing never cancels rest still owed.</li>
+<li>New <code><a href="../reference/season_report.html">season_report()</a></code> writes a self-contained one-page HTML report.</li>
+<li>New dataset <code>demo_pitch_log</code>, a fictional 12U pitching month.</li>
+<li>New vignette, “Coaching a season from paper scorecards”.</li>
+<li>Tests moved to testthat (3rd edition). The API client is tested with mocked responses, so tests never use the network.</li>
+<li>
+<code>inst/extdata/youth_analytics_parity.json</code> holds R results that the app’s Python port is tested against.</li>
+<li>
+<code>httr2</code> and <code>grDevices</code> added to Imports; <code>testthat</code> and <code>withr</code> to Suggests.</li>
+</ul></div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="0.0.5" id="daimondstats-005">daimondstats 0.0.5<a class="anchor" aria-label="anchor" href="#daimondstats-005"></a></h2>
 <ul><li>New <code><a href="../reference/season_games.html">season_games()</a></code> turns an MLB Stats API regular-season schedule into one row per completed game. It filters on the coded status <code>F</code>, because postponed games also report an abstract state of “Final”.</li>

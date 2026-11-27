@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">daimondstats</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.5</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +18,8 @@
       <ul class="navbar-nav me-auto"><li class="active nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/from-scorecard-to-run-value.html">From scorecard to run value</a></li>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-articles"><li><a class="dropdown-item" href="../articles/coaching-a-season.html">Coaching a season from paper scorecards</a></li>
+    <li><a class="dropdown-item" href="../articles/from-scorecard-to-run-value.html">From scorecard to run value</a></li>
   </ul></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json"></form></li>
@@ -35,7 +36,7 @@
     </div>
 
     <div class="section level2">
-      <h2 id="import-and-batting-statistics">Import and batting statistics<a class="anchor" aria-label="anchor" href="#import-and-batting-statistics"></a></h2>
+      <h2 id="get-your-games">Get your games<a class="anchor" aria-label="anchor" href="#get-your-games"></a></h2>
 
 
 
@@ -46,17 +47,86 @@
 
       <dl><dt>
 
+          <code><a href="daimond_auth.html">daimond_auth()</a></code>
+
+        </dt>
+        <dd>Store a dAImond Inning API key for this session</dd>
+
+        <dt>
+
+          <code><a href="daimond_games.html">daimond_games()</a></code>
+
+        </dt>
+        <dd>Download your scorecards from the dAImond Inning app</dd>
+
+        <dt>
+
           <code><a href="import_scorecards.html">import_scorecards()</a></code>
 
         </dt>
         <dd>Import a play-level scorecard CSV</dd>
+      </dl></div><div class="section level2">
+      <h2 id="batting-statistics">Batting statistics<a class="anchor" aria-label="anchor" href="#batting-statistics"></a></h2>
 
-        <dt>
+
+
+      <dl></dl></div><div class="section level2">
+
+
+
+
+      <dl><dt>
 
           <code><a href="calculate_batting_stats.html">calculate_batting_stats()</a></code>
 
         </dt>
         <dd>Calculate batting statistics from reviewed plays</dd>
+
+        <dt>
+
+          <code><a href="calculate_youth_stats.html">calculate_youth_stats()</a></code>
+
+        </dt>
+        <dd>Calculate amateur batting statistics across games</dd>
+      </dl></div><div class="section level2">
+      <h2 id="pitch-counts">Pitch counts<a class="anchor" aria-label="anchor" href="#pitch-counts"></a></h2>
+
+
+
+      <dl></dl></div><div class="section level2">
+
+
+
+
+      <dl><dt>
+
+          <code><a href="check_pitch_counts.html">check_pitch_counts()</a></code>
+
+        </dt>
+        <dd>Check youth pitch counts against Pitch Smart guidelines</dd>
+
+        <dt>
+
+          <code><a href="pitch_smart_rules.html">pitch_smart_rules</a></code>
+
+        </dt>
+        <dd>Pitch Smart daily maximums and rest requirements</dd>
+      </dl></div><div class="section level2">
+      <h2 id="season-report">Season report<a class="anchor" aria-label="anchor" href="#season-report"></a></h2>
+
+
+
+      <dl></dl></div><div class="section level2">
+
+
+
+
+      <dl><dt>
+
+          <code><a href="season_report.html">season_report()</a></code>
+
+        </dt>
+        <dd>Write a one-page season report</dd>
       </dl></div><div class="section level2">
       <h2 id="run-value">Run value<a class="anchor" aria-label="anchor" href="#run-value"></a></h2>
 
@@ -154,6 +224,13 @@
 
         </dt>
         <dd>Fictional scorecard plays for learning and testing</dd>
+
+        <dt>
+
+          <code><a href="demo_pitch_log.html">demo_pitch_log</a></code>
+
+        </dt>
+        <dd>Fictional youth pitching log</dd>
       </dl></div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside></div>

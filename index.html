@@ -5,14 +5,14 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Personal Baseball Seasons and Situational Run Value • daimondstats</title>
+<title>Analytics for Paper Baseball Scorecards • daimondstats</title>
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
-<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Personal Baseball Seasons and Situational Run Value">
-<meta name="description" content="Compares a personal collection of baseball games with a reference season through stratified resampling and evaluates verified plays using run expectancy. Includes MLB base-out transitions for five reviewed scorecards, a published run expectancy matrix, a run impact plot, and real team seasons built from MLB schedules. Also imports reviewed scorecard CSV exports and calculates batting statistics. Input checks reject unresolved scorecard readings, duplicate reference game identifiers, and unverified event rows.">
-<meta property="og:description" content="Compares a personal collection of baseball games with a reference season through stratified resampling and evaluates verified plays using run expectancy. Includes MLB base-out transitions for five reviewed scorecards, a published run expectancy matrix, a run impact plot, and real team seasons built from MLB schedules. Also imports reviewed scorecard CSV exports and calculates batting statistics. Input checks reject unresolved scorecard readings, duplicate reference game identifiers, and unverified event rows.">
+<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Analytics for Paper Baseball Scorecards">
+<meta name="description" content="Analyzes baseball and softball games kept on paper scorecards and digitized with the dAImond Inning app. Imports scorecard exports or downloads them through the app's API, calculates standard and amateur batting statistics (including on-base percentage with errors), checks youth pitch counts against Pitch Smart guidelines, evaluates verified plays with run expectancy (RE24), compares a personal collection of games with a full team season, and writes a one-page season report. Input checks reject unreviewed scorecard readings instead of guessing.">
+<meta property="og:description" content="Analyzes baseball and softball games kept on paper scorecards and digitized with the dAImond Inning app. Imports scorecard exports or downloads them through the app's API, calculates standard and amateur batting statistics (including on-base percentage with errors), checks youth pitch counts against Pitch Smart guidelines, evaluates verified plays with run expectancy (RE24), compares a personal collection of games with a full team season, and writes a one-page season report. Input checks reject unreviewed scorecard readings instead of guessing.">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -22,7 +22,7 @@
 
     <a class="navbar-brand me-2" href="index.html">daimondstats</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.5</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,8 @@
 <li class="nav-item dropdown">
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
-<li><a class="dropdown-item" href="articles/from-scorecard-to-run-value.html">From scorecard to run value</a></li>
+<li><a class="dropdown-item" href="articles/coaching-a-season.html">Coaching a season from paper scorecards</a></li>
+    <li><a class="dropdown-item" href="articles/from-scorecard-to-run-value.html">From scorecard to run value</a></li>
   </ul>
 </li>
       </ul>
@@ -54,11 +55,11 @@
   <main id="main" class="col-md-9"><div class="section level1">
 <div class="page-header"><h1 id="daimondstats">daimondstats<a class="anchor" aria-label="anchor" href="#daimondstats"></a>
 </h1></div>
-<p>daimondstats analyzes a personal collection of baseball games. It compares selected games with one team’s reference season and calculates situational run value, called RE24, from verified events. The separate dAImond Inning app reads scorecard images; this R package works with structured data.</p>
+<p>daimondstats turns baseball and softball games kept on paper into answers a coach, scorekeeper, or fan can use. The dAImond Inning app reads photographed scorecards; this package analyzes the reviewed plays: amateur batting stats such as on-base percentage with errors (OBPE), youth pitch-count checks against Pitch Smart, run value (RE24), comparisons of the games you scored with a team’s full season, and a one-page season report.</p>
 <div class="section level2">
 <h2 id="intended-audience">Intended audience<a class="anchor" aria-label="anchor" href="#intended-audience"></a>
 </h2>
-<p>The package is for baseball fans, scorekeepers, and sports analytics students who use R. It helps answer questions such as whether the games someone scored were unusual within a season. It does not establish that attending or scoring a game changes its outcome.</p>
+<p>The package is for amateur and youth coaches, team scorekeepers, baseball fans who score games, and sports analytics students who use R. It answers questions such as who gets on base when errors are counted, which pitchers are rested enough to pitch today, and whether the games someone scored were unusual within a season. It does not establish that attending or scoring a game changes its outcome.</p>
 </div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -68,13 +69,24 @@
 <code class="sourceCode R"><span><span class="co"># install.packages("remotes")</span></span>
 <span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"kwoolaid725/msds-457"</span>, subdir <span class="op">=</span> <span class="st">"daimondstats"</span><span class="op">)</span></span></code></pre></div>
 <p>To include the vignette, add <code>build_vignettes = TRUE</code> (needs <code>knitr</code> and <code>rmarkdown</code>). It is also on this site under Articles.</p>
-<p>The runtime uses <code>jsonlite</code> to read MLB schedules plus packages distributed with R (<code>graphics</code>, <code>stats</code>, <code>utils</code>); the plot uses base R graphics. <code>roxygen2</code> is an optional development dependency for generating help files.</p>
+<p>The runtime uses <code>jsonlite</code> (MLB schedules, reports) and <code>httr2</code> (the app’s API) plus packages distributed with R (<code>graphics</code>, <code>grDevices</code>, <code>stats</code>, <code>utils</code>); plots use base R graphics. <code>roxygen2</code> is an optional development dependency for generating help files.</p>
 </div>
 <div class="section level2">
 <h2 id="basic-usage">Basic usage<a class="anchor" aria-label="anchor" href="#basic-usage"></a>
 </h2>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://kwoolaid725.github.io/msds-457/">daimondstats</a></span><span class="op">)</span></span>
+<span><span class="co"># Amateur batting stats, including on-base percentage with errors (OBPE):</span></span>
+<span><span class="va">youth</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/calculate_youth_stats.html">calculate_youth_stats</a></span><span class="op">(</span><span class="va">reviewed_scorecards</span>, min_pa <span class="op">=</span> <span class="fl">4</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">youth</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/order.html" class="external-link">order</a></span><span class="op">(</span><span class="op">-</span><span class="va">youth</span><span class="op">$</span><span class="va">OBPE</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"player"</span>, <span class="st">"PA"</span>, <span class="st">"OBP"</span>, <span class="st">"OBPE"</span><span class="op">)</span><span class="op">]</span><span class="op">)</span></span>
+<span><span class="co"># Pitch Smart check on a fictional 12U month:</span></span>
+<span><span class="va">checks</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/check_pitch_counts.html">check_pitch_counts</a></span><span class="op">(</span><span class="va">demo_pitch_log</span><span class="op">)</span></span>
+<span><span class="va">checks</span><span class="op">[</span><span class="va">checks</span><span class="op">$</span><span class="va">status</span> <span class="op">!=</span> <span class="st">"ok"</span>, <span class="op">]</span></span>
+<span><span class="co"># One-page HTML season report:</span></span>
+<span><span class="fu"><a href="reference/season_report.html">season_report</a></span><span class="op">(</span><span class="va">reviewed_scorecards</span>, <span class="st">"season.html"</span>, pitch_check <span class="op">=</span> <span class="va">checks</span>, min_pa <span class="op">=</span> <span class="fl">4</span><span class="op">)</span></span>
+<span><span class="co"># Your own games from the app (needs an API key from Settings &gt; API keys):</span></span>
+<span><span class="co"># daimond_auth("di_pat_...")</span></span>
+<span><span class="co"># season &lt;- daimond_games(from = "2026-04-01")</span></span>
 <span><span class="co"># Included reviewed plays from five team scorecards:</span></span>
 <span><span class="va">batting</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/calculate_batting_stats.html">calculate_batting_stats</a></span><span class="op">(</span><span class="va">reviewed_scorecards</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">batting</span><span class="op">)</span></span>
@@ -101,6 +113,14 @@
 </h2>
 <ul>
 <li>
+<code><a href="reference/daimond_auth.html">daimond_auth()</a></code> and <code><a href="reference/daimond_games.html">daimond_games()</a></code> download your reviewed scorecards from the dAImond Inning app with a personal API key.</li>
+<li>
+<code><a href="reference/calculate_youth_stats.html">calculate_youth_stats()</a></code> returns OBPE, ISO, strikeout and walk rates, and BABIP, pooled across games, with a small-sample flag.</li>
+<li>
+<code><a href="reference/check_pitch_counts.html">check_pitch_counts()</a></code> checks pitching days against Pitch Smart daily maximums and rest days (ages 7 to 18).</li>
+<li>
+<code><a href="reference/season_report.html">season_report()</a></code> writes a self-contained one-page HTML season report.</li>
+<li>
 <code><a href="reference/import_scorecards.html">import_scorecards()</a></code> reads a Plays CSV and retains review flags.</li>
 <li>
 <code><a href="reference/calculate_batting_stats.html">calculate_batting_stats()</a></code> returns player/game counts and BA, OBP, SLG, OPS.</li>
@@ -117,13 +137,13 @@
 <div class="section level2">
 <h2 id="data-and-current-limits">Data and current limits<a class="anchor" aria-label="anchor" href="#data-and-current-limits"></a>
 </h2>
-<p><code>reviewed_scorecards</code> contains 179 plate appearances from five team scorecards, spanning multiple teams and seasons. It is not a complete reference season. <code>reviewed_base_out</code> adds MLB base-out transitions for the same team sides (188 events, joined one to one with the 179 plate appearances), and <code>run_expectancy_fangraphs</code> is the published FanGraphs matrix. <code>reviewed_team_seasons</code> holds the full 162-game season for each scorecard team, built from MLB schedules, for real season comparisons. Two smaller datasets support learning and testing: <code>demo_scorecards</code> (11 fictional entries for checking formulas by hand) and <code>twins_scorecard_2024</code> (35 Twins plays from April 29, 2024). Run-impact inputs must be independently verified by the caller. Review flagged plays before calculating batting statistics and avoid duplicate game imports.</p>
-<p>The vignette, <code><a href="articles/from-scorecard-to-run-value.html">vignette("from-scorecard-to-run-value")</a></code>, walks through the five scorecards from batting lines to RE24. See <code><a href="reference/compare_personal_season.html">?compare_personal_season</a></code> and <code><a href="reference/calculate_run_impact.html">?calculate_run_impact</a></code> for input contracts, runnable examples, return values, and interpretation limits. The <a href="https://github.com/kwoolaid725/msds-457/blob/main/daimondstats/inst/doc/scorecard-data-guide.md" class="external-link">scorecard data guide</a> retains detailed provenance, validation rules, and development checks.</p>
+<p><code>reviewed_scorecards</code> contains 179 plate appearances from five team scorecards, spanning multiple teams and seasons. It is not a complete reference season. <code>reviewed_base_out</code> adds MLB base-out transitions for the same team sides (188 events, joined one to one with the 179 plate appearances), and <code>run_expectancy_fangraphs</code> is the published FanGraphs matrix. <code>reviewed_team_seasons</code> holds the full 162-game season for each scorecard team, built from MLB schedules, for real season comparisons. <code>pitch_smart_rules</code> holds the Pitch Smart limits used by <code><a href="reference/check_pitch_counts.html">check_pitch_counts()</a></code>. Three smaller datasets support learning and testing: <code>demo_scorecards</code> (11 fictional entries for checking formulas by hand), <code>demo_pitch_log</code> (a fictional 12U pitching month), and <code>twins_scorecard_2024</code> (35 Twins plays from April 29, 2024). Run-impact inputs must be independently verified by the caller. Review flagged plays before calculating batting statistics and avoid duplicate game imports.</p>
+<p>Two vignettes walk through real use: <code><a href="articles/coaching-a-season.html">vignette("coaching-a-season")</a></code> covers loading data, OBPE, pitch counts, and the season report, and <code><a href="articles/from-scorecard-to-run-value.html">vignette("from-scorecard-to-run-value")</a></code> goes from batting lines to RE24. See <code><a href="reference/compare_personal_season.html">?compare_personal_season</a></code> and <code><a href="reference/calculate_run_impact.html">?calculate_run_impact</a></code> for input contracts, runnable examples, return values, and interpretation limits. The <a href="https://github.com/kwoolaid725/msds-457/blob/main/daimondstats/inst/guides/scorecard-data-guide.md" class="external-link">scorecard data guide</a> retains detailed provenance, validation rules, and development checks.</p>
 </div>
 <div class="section level2">
 <h2 id="development-status-and-license">Development status and license<a class="anchor" aria-label="anchor" href="#development-status-and-license"></a>
 </h2>
-<p>Version 0.0.5 adds <code><a href="reference/season_games.html">season_games()</a></code> and real team seasons, so <code><a href="reference/compare_personal_season.html">compare_personal_season()</a></code> now runs on real games. Version 0.0.4 added real-event RE24 data, a plotting function, and a vignette. From the repository root, regenerate documentation with <code>roxygen2::roxygenise("daimondstats")</code>. The package uses the MIT license; see <code>LICENSE</code>. ChatGPT assisted with implementation and documentation, including the documentation review on November 1, 2026. Claude assisted with the version 0.0.4 and 0.0.5 base-out data, plot function, vignette, and season adapter.</p>
+<p>Version 0.1.0 connects the package to the dAImond Inning app and adds youth statistics, Pitch Smart checks, and season reports; tests now use testthat. Version 0.0.5 added <code><a href="reference/season_games.html">season_games()</a></code> and real team seasons. Version 0.0.4 added real-event RE24 data, a plotting function, and a vignette. From the repository root, regenerate documentation with <code>roxygen2::roxygenise("daimondstats")</code>. The package uses the MIT license; see <code>LICENSE</code>. ChatGPT assisted with implementation and documentation, including the documentation review on November 1, 2026. Claude assisted with the version 0.0.4 to 0.1.0 base-out data, plot function, vignettes, season adapter, youth statistics, pitch-count check, API client, and season report.</p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">

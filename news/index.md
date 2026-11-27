@@ -1,5 +1,34 @@
 # Changelog
 
+## daimondstats 0.1.0
+
+- Connects to the dAImond Inning app:
+  [`daimond_auth()`](https://kwoolaid725.github.io/msds-457/reference/daimond_auth.md)
+  stores a personal API key for the session and
+  [`daimond_games()`](https://kwoolaid725.github.io/msds-457/reference/daimond_games.md)
+  downloads reviewed plays and pitcher lines. Errors explain missing or
+  revoked keys, plans without API access, and rate limits.
+- New
+  [`calculate_youth_stats()`](https://kwoolaid725.github.io/msds-457/reference/calculate_youth_stats.md):
+  OBPE (on base including reaching on error), ISO, strikeout and walk
+  rates, and BABIP, pooled across games, with a small-sample flag.
+- New
+  [`check_pitch_counts()`](https://kwoolaid725.github.io/msds-457/reference/check_pitch_counts.md)
+  and dataset `pitch_smart_rules`: Pitch Smart daily maximums and rest
+  days for ages 7 to 18. Same-day appearances are added together, and a
+  short outing never cancels rest still owed.
+- New
+  [`season_report()`](https://kwoolaid725.github.io/msds-457/reference/season_report.md)
+  writes a self-contained one-page HTML report.
+- New dataset `demo_pitch_log`, a fictional 12U pitching month.
+- New vignette, “Coaching a season from paper scorecards”.
+- Tests moved to testthat (3rd edition). The API client is tested with
+  mocked responses, so tests never use the network.
+- `inst/extdata/youth_analytics_parity.json` holds R results that the
+  app’s Python port is tested against.
+- `httr2` and `grDevices` added to Imports; `testthat` and `withr` to
+  Suggests.
+
 ## daimondstats 0.0.5
 
 - New
