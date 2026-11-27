@@ -1,0 +1,2762 @@
+{
+  "source": "daimondstats 0.1.0 (R reference implementation)",
+  "youth_min_pa": 5,
+  "plays": [
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Ketel Marte",
+      "inning": "1",
+      "play": "flyout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Ketel Marte",
+      "inning": "3",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Ketel Marte",
+      "inning": "5",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Ketel Marte",
+      "inning": "7",
+      "play": "single"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Geraldo Perdomo",
+      "inning": "1",
+      "play": "walk"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Geraldo Perdomo",
+      "inning": "3",
+      "play": "lineout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Geraldo Perdomo",
+      "inning": "5",
+      "play": "walk"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Geraldo Perdomo",
+      "inning": "7",
+      "play": "double"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Corbin Carroll",
+      "inning": "1",
+      "play": "flyout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Corbin Carroll",
+      "inning": "4",
+      "play": "single"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Corbin Carroll",
+      "inning": "5",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Corbin Carroll",
+      "inning": "7",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Gabriel Moreno",
+      "inning": "1",
+      "play": "single"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Gabriel Moreno",
+      "inning": "4",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Gabriel Moreno",
+      "inning": "6",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Gabriel Moreno",
+      "inning": "8",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Lourdes Gurriel Jr.",
+      "inning": "1",
+      "play": "lineout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Lourdes Gurriel Jr.",
+      "inning": "4",
+      "play": "single"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Lourdes Gurriel Jr.",
+      "inning": "6",
+      "play": "flyout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Lourdes Gurriel Jr.",
+      "inning": "8",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Nolan Arenado",
+      "inning": "2",
+      "play": "flyout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Nolan Arenado",
+      "inning": "4",
+      "play": "flyout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Nolan Arenado",
+      "inning": "6",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Nolan Arenado",
+      "inning": "8",
+      "play": "single"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Jordan Lawlar",
+      "inning": "2",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Jordan Lawlar",
+      "inning": "4",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Jordan Lawlar",
+      "inning": "7",
+      "play": "hit_by_pitch"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Jordan Lawlar",
+      "inning": "8",
+      "play": "walk"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Pavin Smith",
+      "inning": "2",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Pavin Smith",
+      "inning": "5",
+      "play": "single"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Pavin Smith",
+      "inning": "7",
+      "play": "home_run"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Pavin Smith",
+      "inning": "8",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Tommy Troy",
+      "inning": "3",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Tommy Troy",
+      "inning": "5",
+      "play": "groundout"
+    },
+    {
+      "game_id": "825071",
+      "team": "Arizona Diamondbacks",
+      "player": "Tommy Troy",
+      "inning": "7",
+      "play": "groundout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "JJ Wetherholt",
+      "inning": "1",
+      "play": "flyout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "JJ Wetherholt",
+      "inning": "3",
+      "play": "lineout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "JJ Wetherholt",
+      "inning": "5",
+      "play": "walk"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "JJ Wetherholt",
+      "inning": "7",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Jordan Walker",
+      "inning": "1",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Jordan Walker",
+      "inning": "3",
+      "play": "flyout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Jordan Walker",
+      "inning": "5",
+      "play": "single"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Jordan Walker",
+      "inning": "8",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Alec Burleson",
+      "inning": "1",
+      "play": "walk"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Alec Burleson",
+      "inning": "4",
+      "play": "double"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Alec Burleson",
+      "inning": "5",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Alec Burleson",
+      "inning": "8",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Iván Herrera",
+      "inning": "1",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Iván Herrera",
+      "inning": "4",
+      "play": "groundout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Iván Herrera",
+      "inning": "6",
+      "play": "groundout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Iván Herrera",
+      "inning": "8",
+      "play": "groundout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Lars Nootbaar",
+      "inning": "2",
+      "play": "groundout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Lars Nootbaar",
+      "inning": "4",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Lars Nootbaar",
+      "inning": "6",
+      "play": "groundout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Lars Nootbaar",
+      "inning": "9",
+      "play": "groundout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Masyn Winn",
+      "inning": "2",
+      "play": "walk"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Masyn Winn",
+      "inning": "4",
+      "play": "groundout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Masyn Winn",
+      "inning": "6",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Masyn Winn",
+      "inning": "9",
+      "play": "single"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Nathan Church",
+      "inning": "2",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Nathan Church",
+      "inning": "5",
+      "play": "single"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Nathan Church",
+      "inning": "7",
+      "play": "single"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Nathan Church",
+      "inning": "9",
+      "play": "flyout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "José Fermín",
+      "inning": "2",
+      "play": "lineout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "José Fermín",
+      "inning": "5",
+      "play": "groundout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "José Fermín",
+      "inning": "7",
+      "play": "groundout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "José Fermín",
+      "inning": "9",
+      "play": "fielder's_choice"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Jimmy Crooks",
+      "inning": "3",
+      "play": "flyout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Jimmy Crooks",
+      "inning": "5",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "822782",
+      "team": "St. Louis Cardinals",
+      "player": "Jimmy Crooks",
+      "inning": "7",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Ryan Jeffers",
+      "inning": "1",
+      "play": "flyout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Ryan Jeffers",
+      "inning": "3",
+      "play": "flyout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Ryan Jeffers",
+      "inning": "6",
+      "play": "walk"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Ryan Jeffers",
+      "inning": "8",
+      "play": "flyout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Carlos Correa",
+      "inning": "1",
+      "play": "groundout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Carlos Correa",
+      "inning": "3",
+      "play": "groundout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Carlos Correa",
+      "inning": "6",
+      "play": "flyout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Carlos Correa",
+      "inning": "8",
+      "play": "strikeout_looking"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Jose F Miranda",
+      "inning": "1",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Jose F Miranda",
+      "inning": "3",
+      "play": "groundout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Edouard Julien",
+      "inning": "6",
+      "play": "walk"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Edouard Julien",
+      "inning": "8",
+      "play": "groundout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Byron Buxton",
+      "inning": "2",
+      "play": "strikeout_looking"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Byron Buxton",
+      "inning": "4",
+      "play": "flyout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Byron Buxton",
+      "inning": "6",
+      "play": "flyout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Byron Buxton",
+      "inning": "9",
+      "play": "double"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Manuel Margot",
+      "inning": "2",
+      "play": "walk"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Manuel Margot",
+      "inning": "4",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Max Kepler",
+      "inning": "6",
+      "play": "groundout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Max Kepler",
+      "inning": "9",
+      "play": "single"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Carlos Santana",
+      "inning": "2",
+      "play": "home_run"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Carlos Santana",
+      "inning": "4",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Carlos Santana",
+      "inning": "7",
+      "play": "groundout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Carlos Santana",
+      "inning": "9",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Willi Castro",
+      "inning": "2",
+      "play": "single"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Willi Castro",
+      "inning": "5",
+      "play": "groundout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Willi Castro",
+      "inning": "7",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Willi Castro",
+      "inning": "9",
+      "play": "lineout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Christian Vázquez",
+      "inning": "2",
+      "play": "strikeout_looking"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Christian Vázquez",
+      "inning": "5",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Christian Vázquez",
+      "inning": "7",
+      "play": "error"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Christian Vázquez",
+      "inning": "9",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Kyle Farmer",
+      "inning": "2",
+      "play": "flyout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Kyle Farmer",
+      "inning": "5",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "746804",
+      "team": "Minnesota Twins",
+      "player": "Alex Kirilloff",
+      "inning": "7",
+      "play": "groundout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Travis Bazzana",
+      "inning": "1",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Travis Bazzana",
+      "inning": "4",
+      "play": "walk"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Travis Bazzana",
+      "inning": "5",
+      "play": "double"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Travis Bazzana",
+      "inning": "8",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Kyle Manzardo",
+      "inning": "1",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Kyle Manzardo",
+      "inning": "4",
+      "play": "single"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Kyle Manzardo",
+      "inning": "5",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Kyle Manzardo",
+      "inning": "8",
+      "play": "groundout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Brayan Rocchio",
+      "inning": "1",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Brayan Rocchio",
+      "inning": "4",
+      "play": "walk"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Brayan Rocchio",
+      "inning": "5",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Brayan Rocchio",
+      "inning": "8",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Rhys Hoskins",
+      "inning": "2",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Rhys Hoskins",
+      "inning": "4",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Rhys Hoskins",
+      "inning": "6",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Rhys Hoskins",
+      "inning": "9",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Daniel Schneemann",
+      "inning": "2",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Daniel Schneemann",
+      "inning": "4",
+      "play": "home_run"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Daniel Schneemann",
+      "inning": "6",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Daniel Schneemann",
+      "inning": "9",
+      "play": "groundout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "David Fry",
+      "inning": "2",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "David Fry",
+      "inning": "4",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "David Fry",
+      "inning": "6",
+      "play": "groundout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "David Fry",
+      "inning": "9",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Steven Kwan",
+      "inning": "3",
+      "play": "lineout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Steven Kwan",
+      "inning": "4",
+      "play": "walk"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Steven Kwan",
+      "inning": "7",
+      "play": "strikeout_looking"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Petey Halpin",
+      "inning": "3",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Petey Halpin",
+      "inning": "4",
+      "play": "groundout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Petey Halpin",
+      "inning": "7",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Patrick Bailey",
+      "inning": "3",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Patrick Bailey",
+      "inning": "5",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823774",
+      "team": "Cleveland Guardians",
+      "player": "Patrick Bailey",
+      "inning": "7",
+      "play": "groundout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Francisco Lindor",
+      "inning": "1",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Francisco Lindor",
+      "inning": "3",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Francisco Lindor",
+      "inning": "5",
+      "play": "single"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Francisco Lindor",
+      "inning": "6",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Francisco Lindor",
+      "inning": "8",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Luis Robert Jr.",
+      "inning": "1",
+      "play": "single"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Luis Robert Jr.",
+      "inning": "3",
+      "play": "walk"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Luis Robert Jr.",
+      "inning": "5",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Luis Robert Jr.",
+      "inning": "6",
+      "play": "fielder's_choice"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Luis Robert Jr.",
+      "inning": "8",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Jorge Polanco",
+      "inning": "1",
+      "play": "groundout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Jorge Polanco",
+      "inning": "3",
+      "play": "fielder's_choice"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Jorge Polanco",
+      "inning": "5",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Jorge Polanco",
+      "inning": "7",
+      "play": "home_run"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Jorge Polanco",
+      "inning": "9",
+      "play": "groundout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Bo Bichette",
+      "inning": "1",
+      "play": "single"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Bo Bichette",
+      "inning": "3",
+      "play": "walk"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Bo Bichette",
+      "inning": "5",
+      "play": "home_run"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Bo Bichette",
+      "inning": "7",
+      "play": "walk"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Bo Bichette",
+      "inning": "9",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Mark Vientos",
+      "inning": "1",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Mark Vientos",
+      "inning": "3",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Mark Vientos",
+      "inning": "5",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Mark Vientos",
+      "inning": "7",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Mark Vientos",
+      "inning": "9",
+      "play": "groundout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Francisco Alvarez",
+      "inning": "2",
+      "play": "lineout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Francisco Alvarez",
+      "inning": "4",
+      "play": "lineout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Francisco Alvarez",
+      "inning": "6",
+      "play": "home_run"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Francisco Alvarez",
+      "inning": "7",
+      "play": "single"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Carson Benge",
+      "inning": "2",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Carson Benge",
+      "inning": "4",
+      "play": "single"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Carson Benge",
+      "inning": "6",
+      "play": "walk"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Carson Benge",
+      "inning": "7",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Marcus Semien",
+      "inning": "2",
+      "play": "groundout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Marcus Semien",
+      "inning": "4",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Marcus Semien",
+      "inning": "6",
+      "play": "single"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Marcus Semien",
+      "inning": "7",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Tyrone Taylor",
+      "inning": "3",
+      "play": "single"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Tyrone Taylor",
+      "inning": "4",
+      "play": "flyout"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Brett Baty",
+      "inning": "6",
+      "play": "sacrifice_fly"
+    },
+    {
+      "game_id": "823644",
+      "team": "New York Mets",
+      "player": "Brett Baty",
+      "inning": "8",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ava",
+      "inning": "1",
+      "play": "single"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ava",
+      "inning": "2",
+      "play": "double"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ava",
+      "inning": "3",
+      "play": "home_run"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ava",
+      "inning": "4",
+      "play": "error"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ava",
+      "inning": "5",
+      "play": "error"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ava",
+      "inning": "6",
+      "play": "walk"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ava",
+      "inning": "7",
+      "play": "hit_by_pitch"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ava",
+      "inning": "8",
+      "play": "strikeout"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ava",
+      "inning": "9",
+      "play": "groundout"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ava",
+      "inning": "10",
+      "play": "sacrifice_fly"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ben",
+      "inning": "11",
+      "play": "manfred_runner"
+    },
+    {
+      "game_id": "fixture",
+      "team": "Owls",
+      "player": "Ben",
+      "inning": "12",
+      "play": "sacrifice_bunt"
+    }
+  ],
+  "youth_stats": [
+    {
+      "team": "Arizona Diamondbacks",
+      "player": "Ketel Marte",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": 0.25,
+      "small_sample": true
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "player": "Geraldo Perdomo",
+      "G": 1,
+      "PA": 4,
+      "AB": 2,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 2,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 2,
+      "OBP": 0.75,
+      "OBPE": 0.75,
+      "ISO": 0.5,
+      "K_rate": 0,
+      "BB_rate": 0.5,
+      "BABIP": 0.5,
+      "small_sample": true
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "player": "Corbin Carroll",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": 0.25,
+      "small_sample": true
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "player": "Gabriel Moreno",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": 0.25,
+      "small_sample": true
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "player": "Lourdes Gurriel Jr.",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": 0.25,
+      "small_sample": true
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "player": "Nolan Arenado",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0.25,
+      "BB_rate": 0,
+      "BABIP": 0.333333333333333,
+      "small_sample": true
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "player": "Jordan Lawlar",
+      "G": 1,
+      "PA": 4,
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 1,
+      "SO": 1,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0,
+      "K_rate": 0.25,
+      "BB_rate": 0.25,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "player": "Pavin Smith",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 2,
+      "HR": 1,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 5,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0.75,
+      "K_rate": 0.25,
+      "BB_rate": 0,
+      "BABIP": 0.5,
+      "small_sample": true
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "player": "Tommy Troy",
+      "G": 1,
+      "PA": 3,
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "player": "JJ Wetherholt",
+      "G": 1,
+      "PA": 4,
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0.25,
+      "BB_rate": 0.25,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "player": "Jordan Walker",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 2,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0.5,
+      "BB_rate": 0,
+      "BABIP": 0.5,
+      "small_sample": true
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "player": "Alec Burleson",
+      "G": 1,
+      "PA": 4,
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 0,
+      "SO": 2,
+      "SF": 0,
+      "TB": 2,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0.333333333333333,
+      "K_rate": 0.5,
+      "BB_rate": 0.25,
+      "BABIP": 1,
+      "small_sample": true
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "player": "Iván Herrera",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0.25,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "player": "Lars Nootbaar",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0.25,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "player": "Masyn Winn",
+      "G": 1,
+      "PA": 4,
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0,
+      "K_rate": 0.25,
+      "BB_rate": 0.25,
+      "BABIP": 0.5,
+      "small_sample": true
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "player": "Nathan Church",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 2,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 2,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0,
+      "K_rate": 0.25,
+      "BB_rate": 0,
+      "BABIP": 0.666666666666667,
+      "small_sample": true
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "player": "José Fermín",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "player": "Jimmy Crooks",
+      "G": 1,
+      "PA": 3,
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 2,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0.666666666666667,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Ryan Jeffers",
+      "G": 1,
+      "PA": 4,
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0.25,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Carlos Correa",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0.25,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Jose F Miranda",
+      "G": 1,
+      "PA": 2,
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0.5,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Edouard Julien",
+      "G": 1,
+      "PA": 2,
+      "AB": 1,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0.5,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Byron Buxton",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 2,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0.25,
+      "K_rate": 0.25,
+      "BB_rate": 0,
+      "BABIP": 0.333333333333333,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Manuel Margot",
+      "G": 1,
+      "PA": 2,
+      "AB": 1,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0,
+      "K_rate": 0.5,
+      "BB_rate": 0.5,
+      "BABIP": null,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Max Kepler",
+      "G": 1,
+      "PA": 2,
+      "AB": 2,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": 0.5,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Carlos Santana",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 2,
+      "SF": 0,
+      "TB": 4,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0.75,
+      "K_rate": 0.5,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Willi Castro",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0.25,
+      "BB_rate": 0,
+      "BABIP": 0.333333333333333,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Christian Vázquez",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "ROE": 1,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 3,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0.75,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Kyle Farmer",
+      "G": 1,
+      "PA": 2,
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0.5,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Minnesota Twins",
+      "player": "Alex Kirilloff",
+      "G": 1,
+      "PA": 1,
+      "AB": 1,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Cleveland Guardians",
+      "player": "Travis Bazzana",
+      "G": 1,
+      "PA": 4,
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 2,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0.333333333333333,
+      "K_rate": 0,
+      "BB_rate": 0.25,
+      "BABIP": 0.333333333333333,
+      "small_sample": true
+    },
+    {
+      "team": "Cleveland Guardians",
+      "player": "Kyle Manzardo",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 2,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0.5,
+      "BB_rate": 0,
+      "BABIP": 0.5,
+      "small_sample": true
+    },
+    {
+      "team": "Cleveland Guardians",
+      "player": "Brayan Rocchio",
+      "G": 1,
+      "PA": 4,
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 0,
+      "SO": 2,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0.5,
+      "BB_rate": 0.25,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Cleveland Guardians",
+      "player": "Rhys Hoskins",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 3,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0.75,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Cleveland Guardians",
+      "player": "Daniel Schneemann",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 1,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 2,
+      "SF": 0,
+      "TB": 4,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0.75,
+      "K_rate": 0.5,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Cleveland Guardians",
+      "player": "David Fry",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Cleveland Guardians",
+      "player": "Steven Kwan",
+      "G": 1,
+      "PA": 3,
+      "AB": 2,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0.333333333333333,
+      "OBPE": 0.333333333333333,
+      "ISO": 0,
+      "K_rate": 0.333333333333333,
+      "BB_rate": 0.333333333333333,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Cleveland Guardians",
+      "player": "Petey Halpin",
+      "G": 1,
+      "PA": 3,
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0.333333333333333,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Cleveland Guardians",
+      "player": "Patrick Bailey",
+      "G": 1,
+      "PA": 3,
+      "AB": 3,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 2,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0.666666666666667,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "New York Mets",
+      "player": "Francisco Lindor",
+      "G": 1,
+      "PA": 5,
+      "AB": 5,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 2,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.2,
+      "OBPE": 0.2,
+      "ISO": 0,
+      "K_rate": 0.4,
+      "BB_rate": 0,
+      "BABIP": 0.333333333333333,
+      "small_sample": false
+    },
+    {
+      "team": "New York Mets",
+      "player": "Luis Robert Jr.",
+      "G": 1,
+      "PA": 5,
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 0,
+      "SO": 2,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.4,
+      "OBPE": 0.4,
+      "ISO": 0,
+      "K_rate": 0.4,
+      "BB_rate": 0.2,
+      "BABIP": 0.5,
+      "small_sample": false
+    },
+    {
+      "team": "New York Mets",
+      "player": "Jorge Polanco",
+      "G": 1,
+      "PA": 5,
+      "AB": 5,
+      "H": 1,
+      "HR": 1,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 4,
+      "OBP": 0.2,
+      "OBPE": 0.2,
+      "ISO": 0.6,
+      "K_rate": 0.2,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": false
+    },
+    {
+      "team": "New York Mets",
+      "player": "Bo Bichette",
+      "G": 1,
+      "PA": 5,
+      "AB": 3,
+      "H": 2,
+      "HR": 1,
+      "ROE": 0,
+      "BB": 2,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 5,
+      "OBP": 0.8,
+      "OBPE": 0.8,
+      "ISO": 1,
+      "K_rate": 0.2,
+      "BB_rate": 0.4,
+      "BABIP": 1,
+      "small_sample": false
+    },
+    {
+      "team": "New York Mets",
+      "player": "Mark Vientos",
+      "G": 1,
+      "PA": 5,
+      "AB": 5,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0.2,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": false
+    },
+    {
+      "team": "New York Mets",
+      "player": "Francisco Alvarez",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 2,
+      "HR": 1,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 5,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0.75,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": 0.333333333333333,
+      "small_sample": true
+    },
+    {
+      "team": "New York Mets",
+      "player": "Carson Benge",
+      "G": 1,
+      "PA": 4,
+      "AB": 3,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 1,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0,
+      "K_rate": 0.25,
+      "BB_rate": 0.25,
+      "BABIP": 0.5,
+      "small_sample": true
+    },
+    {
+      "team": "New York Mets",
+      "player": "Marcus Semien",
+      "G": 1,
+      "PA": 4,
+      "AB": 4,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.25,
+      "OBPE": 0.25,
+      "ISO": 0,
+      "K_rate": 0.25,
+      "BB_rate": 0,
+      "BABIP": 0.333333333333333,
+      "small_sample": true
+    },
+    {
+      "team": "New York Mets",
+      "player": "Tyrone Taylor",
+      "G": 1,
+      "PA": 2,
+      "AB": 2,
+      "H": 1,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 1,
+      "OBP": 0.5,
+      "OBPE": 0.5,
+      "ISO": 0,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": 0.5,
+      "small_sample": true
+    },
+    {
+      "team": "New York Mets",
+      "player": "Brett Baty",
+      "G": 1,
+      "PA": 2,
+      "AB": 1,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 1,
+      "SF": 1,
+      "TB": 0,
+      "OBP": 0,
+      "OBPE": 0,
+      "ISO": 0,
+      "K_rate": 0.5,
+      "BB_rate": 0,
+      "BABIP": 0,
+      "small_sample": true
+    },
+    {
+      "team": "Owls",
+      "player": "Ava",
+      "G": 1,
+      "PA": 10,
+      "AB": 7,
+      "H": 3,
+      "HR": 1,
+      "ROE": 2,
+      "BB": 1,
+      "HBP": 1,
+      "SO": 1,
+      "SF": 1,
+      "TB": 7,
+      "OBP": 0.5,
+      "OBPE": 0.7,
+      "ISO": 0.571428571428571,
+      "K_rate": 0.1,
+      "BB_rate": 0.1,
+      "BABIP": 0.333333333333333,
+      "small_sample": false
+    },
+    {
+      "team": "Owls",
+      "player": "Ben",
+      "G": 1,
+      "PA": 1,
+      "AB": 0,
+      "H": 0,
+      "HR": 0,
+      "ROE": 0,
+      "BB": 0,
+      "HBP": 0,
+      "SO": 0,
+      "SF": 0,
+      "TB": 0,
+      "OBP": null,
+      "OBPE": null,
+      "ISO": null,
+      "K_rate": 0,
+      "BB_rate": 0,
+      "BABIP": null,
+      "small_sample": true
+    }
+  ],
+  "pitch_log": [
+    {
+      "pitcher": "Ava",
+      "age": 11,
+      "date": "2026-05-02",
+      "pitches": 60
+    },
+    {
+      "pitcher": "Ava",
+      "age": 11,
+      "date": "2026-05-04",
+      "pitches": 30
+    },
+    {
+      "pitcher": "Ben",
+      "age": 12,
+      "date": "2026-05-02",
+      "pitches": 90
+    },
+    {
+      "pitcher": "Ben",
+      "age": 12,
+      "date": "2026-05-03",
+      "pitches": 10
+    },
+    {
+      "pitcher": "Cy",
+      "age": 15,
+      "date": "2026-05-02",
+      "pitches": 40
+    },
+    {
+      "pitcher": "Cy",
+      "age": 15,
+      "date": "2026-05-02",
+      "pitches": 30
+    },
+    {
+      "pitcher": "Dee",
+      "age": 12,
+      "date": "2026-06-01",
+      "pitches": 70
+    },
+    {
+      "pitcher": "Dee",
+      "age": 12,
+      "date": "2026-06-02",
+      "pitches": 10
+    },
+    {
+      "pitcher": "Dee",
+      "age": 12,
+      "date": "2026-06-04",
+      "pitches": 10
+    },
+    {
+      "pitcher": "Dee",
+      "age": 12,
+      "date": "2026-06-06",
+      "pitches": 10
+    },
+    {
+      "pitcher": "Eli",
+      "age": 9,
+      "date": "2026-06-01",
+      "pitches": 40
+    },
+    {
+      "pitcher": "Eli",
+      "age": 9,
+      "date": "2026-06-02",
+      "pitches": 80
+    },
+    {
+      "pitcher": "Fay",
+      "age": 17,
+      "date": "2026-06-03",
+      "pitches": 61
+    },
+    {
+      "pitcher": "Gus",
+      "age": 7,
+      "date": "2026-06-03",
+      "pitches": 0
+    },
+    {
+      "pitcher": "Hal",
+      "age": 13,
+      "date": "2026-06-03",
+      "pitches": 95
+    },
+    {
+      "pitcher": "Ivy",
+      "age": 18,
+      "date": "2026-06-03",
+      "pitches": 106
+    }
+  ],
+  "pitch_checks": [
+    {
+      "pitcher": "Ava",
+      "date": "2026-05-02",
+      "age": 11,
+      "pitches": 60,
+      "appearances": 1,
+      "daily_max": 85,
+      "rest_days": 3,
+      "next_eligible": "2026-05-06",
+      "over_max": false,
+      "short_rest": false,
+      "status": "ok"
+    },
+    {
+      "pitcher": "Ava",
+      "date": "2026-05-04",
+      "age": 11,
+      "pitches": 30,
+      "appearances": 1,
+      "daily_max": 85,
+      "rest_days": 1,
+      "next_eligible": "2026-05-06",
+      "over_max": false,
+      "short_rest": true,
+      "status": "short rest"
+    },
+    {
+      "pitcher": "Ben",
+      "date": "2026-05-02",
+      "age": 12,
+      "pitches": 90,
+      "appearances": 1,
+      "daily_max": 85,
+      "rest_days": 4,
+      "next_eligible": "2026-05-07",
+      "over_max": true,
+      "short_rest": false,
+      "status": "over daily max"
+    },
+    {
+      "pitcher": "Ben",
+      "date": "2026-05-03",
+      "age": 12,
+      "pitches": 10,
+      "appearances": 1,
+      "daily_max": 85,
+      "rest_days": 0,
+      "next_eligible": "2026-05-04",
+      "over_max": false,
+      "short_rest": true,
+      "status": "short rest"
+    },
+    {
+      "pitcher": "Cy",
+      "date": "2026-05-02",
+      "age": 15,
+      "pitches": 70,
+      "appearances": 2,
+      "daily_max": 95,
+      "rest_days": 3,
+      "next_eligible": "2026-05-06",
+      "over_max": false,
+      "short_rest": false,
+      "status": "ok"
+    },
+    {
+      "pitcher": "Dee",
+      "date": "2026-06-01",
+      "age": 12,
+      "pitches": 70,
+      "appearances": 1,
+      "daily_max": 85,
+      "rest_days": 4,
+      "next_eligible": "2026-06-06",
+      "over_max": false,
+      "short_rest": false,
+      "status": "ok"
+    },
+    {
+      "pitcher": "Dee",
+      "date": "2026-06-02",
+      "age": 12,
+      "pitches": 10,
+      "appearances": 1,
+      "daily_max": 85,
+      "rest_days": 0,
+      "next_eligible": "2026-06-03",
+      "over_max": false,
+      "short_rest": true,
+      "status": "short rest"
+    },
+    {
+      "pitcher": "Dee",
+      "date": "2026-06-04",
+      "age": 12,
+      "pitches": 10,
+      "appearances": 1,
+      "daily_max": 85,
+      "rest_days": 0,
+      "next_eligible": "2026-06-05",
+      "over_max": false,
+      "short_rest": true,
+      "status": "short rest"
+    },
+    {
+      "pitcher": "Dee",
+      "date": "2026-06-06",
+      "age": 12,
+      "pitches": 10,
+      "appearances": 1,
+      "daily_max": 85,
+      "rest_days": 0,
+      "next_eligible": "2026-06-07",
+      "over_max": false,
+      "short_rest": false,
+      "status": "ok"
+    },
+    {
+      "pitcher": "Eli",
+      "date": "2026-06-01",
+      "age": 9,
+      "pitches": 40,
+      "appearances": 1,
+      "daily_max": 75,
+      "rest_days": 2,
+      "next_eligible": "2026-06-04",
+      "over_max": false,
+      "short_rest": false,
+      "status": "ok"
+    },
+    {
+      "pitcher": "Eli",
+      "date": "2026-06-02",
+      "age": 9,
+      "pitches": 80,
+      "appearances": 1,
+      "daily_max": 75,
+      "rest_days": 4,
+      "next_eligible": "2026-06-07",
+      "over_max": true,
+      "short_rest": true,
+      "status": "over daily max; short rest"
+    },
+    {
+      "pitcher": "Fay",
+      "date": "2026-06-03",
+      "age": 17,
+      "pitches": 61,
+      "appearances": 1,
+      "daily_max": 105,
+      "rest_days": 3,
+      "next_eligible": "2026-06-07",
+      "over_max": false,
+      "short_rest": false,
+      "status": "ok"
+    },
+    {
+      "pitcher": "Gus",
+      "date": "2026-06-03",
+      "age": 7,
+      "pitches": 0,
+      "appearances": 1,
+      "daily_max": 50,
+      "rest_days": 0,
+      "next_eligible": "2026-06-04",
+      "over_max": false,
+      "short_rest": false,
+      "status": "ok"
+    },
+    {
+      "pitcher": "Hal",
+      "date": "2026-06-03",
+      "age": 13,
+      "pitches": 95,
+      "appearances": 1,
+      "daily_max": 95,
+      "rest_days": 4,
+      "next_eligible": "2026-06-08",
+      "over_max": false,
+      "short_rest": false,
+      "status": "ok"
+    },
+    {
+      "pitcher": "Ivy",
+      "date": "2026-06-03",
+      "age": 18,
+      "pitches": 106,
+      "appearances": 1,
+      "daily_max": 105,
+      "rest_days": 4,
+      "next_eligible": "2026-06-08",
+      "over_max": true,
+      "short_rest": false,
+      "status": "over daily max"
+    }
+  ]
+}

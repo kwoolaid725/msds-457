@@ -1,4 +1,4 @@
-* using log directory ‘/private/tmp/claude-501/-Users-woohyunkim-Projects-Git-Obsidian-Second-Brain-wiki-northwestern-msds-msds-457/dc7ba8b5-eefe-4401-9417-a7a137567ccf/scratchpad/check/daimondstats.Rcheck’
+* using log directory ‘daimondstats.Rcheck’
 * using R version 4.5.1 (2025-06-13)
 * using platform: aarch64-apple-darwin20
 * R was compiled by
@@ -6,10 +6,20 @@
     GNU Fortran (GCC) 14.2.0
 * running under: macOS Tahoe 26.2
 * using session charset: UTF-8
-* using option ‘--no-manual’
+* using options ‘--no-manual --as-cran’
 * checking for file ‘daimondstats/DESCRIPTION’ ... OK
-* this is package ‘daimondstats’ version ‘0.0.5’
+* this is package ‘daimondstats’ version ‘0.1.0’
 * package encoding: UTF-8
+* checking CRAN incoming feasibility ... [3s/15s] NOTE
+Maintainer: ‘Woohyun Kim <woodenkim92@gmail.com>’
+
+New submission
+
+Found the following (possibly) invalid URLs:
+  URL: https://github.com/kwoolaid725/msds-457/blob/main/daimondstats/inst/guides/scorecard-data-guide.md
+    From: README.md
+    Status: 404
+    Message: Not Found
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -21,6 +31,7 @@
 * checking whether package ‘daimondstats’ can be installed ... OK
 * checking installed package size ... OK
 * checking package directory ... OK
+* checking for future file timestamps ... OK
 * checking ‘build’ directory ... OK
 * checking DESCRIPTION meta-information ... OK
 * checking top-level files ... OK
@@ -34,6 +45,7 @@
 * checking whether the package can be unloaded cleanly ... OK
 * checking whether the namespace can be loaded with stated dependencies ... OK
 * checking whether the namespace can be unloaded cleanly ... OK
+* checking use of S3 registration ... OK
 * checking dependencies in R code ... OK
 * checking S3 generic/method consistency ... OK
 * checking replacement functions ... OK
@@ -41,6 +53,7 @@
 * checking R code for possible problems ... OK
 * checking Rd files ... OK
 * checking Rd metadata ... OK
+* checking Rd line widths ... OK
 * checking Rd cross-references ... OK
 * checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... OK
@@ -55,14 +68,18 @@
 * checking files in ‘vignettes’ ... OK
 * checking examples ... OK
 * checking for unstated dependencies in ‘tests’ ... OK
-* checking tests ... OK
-  Running ‘core.R’
-  Running ‘personal-season.R’
-  Running ‘reviewed-data.R’
-  Running ‘run-impact-real.R’
-  Running ‘team-seasons.R’
+* checking tests ...
+  Running ‘testthat.R’
+ OK
 * checking for unstated dependencies in vignettes ... OK
 * checking package vignettes ... OK
 * checking re-building of vignette outputs ... OK
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
 * DONE
-Status: OK
+
+Status: 1 NOTE
+See
+  ‘daimondstats.Rcheck/00check.log’
+for details.
+

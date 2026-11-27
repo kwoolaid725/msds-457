@@ -1,10 +1,26 @@
 # MSDS 457 final project: daimondstats
 
-Woohyun Kim's R package for personal scorebook analysis. The current package is
-[daimondstats 0.0.5](daimondstats/README.md). The vignette
+Woohyun Kim's R package for analyzing baseball games kept on paper scorecards
+and read by the dAImond Inning app. The current package is
+[daimondstats 0.1.0](daimondstats/README.md). Two vignettes walk through it:
+[Coaching a season from paper scorecards](daimondstats/vignettes/coaching-a-season.Rmd)
+(loading games, OBPE, Pitch Smart checks, season report) and
 [From scorecard to run value](daimondstats/vignettes/from-scorecard-to-run-value.Rmd)
-walks through the five reviewed scorecards from batting lines to RE24, then
-places a scored game inside its team's full season.
+(batting lines to RE24, and a scored game inside its team's full season).
+
+## Version 0.1.0
+
+- `daimond_auth()` and `daimond_games()` download a user's reviewed plays and
+  pitcher lines from the dAImond Inning app's read-only API with a personal key.
+- `calculate_youth_stats()`: OBPE (on base including reaching on error), ISO,
+  strikeout and walk rates, BABIP, and a small-sample flag.
+- `check_pitch_counts()` with `pitch_smart_rules`: Pitch Smart daily maximums
+  and rest days for ages 7 to 18.
+- `season_report()`: a self-contained one-page HTML report.
+- Tests moved to testthat: 291 expectations covering normal cases, edge cases,
+  and expected errors. API tests use mocked responses and never touch the network.
+- `inst/extdata/youth_analytics_parity.json` holds R results that the app's
+  Python port is tested against.
 
 [Module 5 progress update, two-page PDF](module%205/Kim_Final_Project_Progress_Update_v2.pdf)
 
@@ -69,13 +85,14 @@ road-game run differentials.
 ```text
 daimondstats/
   DESCRIPTION, NAMESPACE, LICENSE, README.md
-  R/             # Six public functions and dataset documents
+  R/             # Eleven public functions and dataset documents
   man/           # Installed help
-  data/          # Reviewed collection, base-out events, RE matrix, team seasons, examples
+  data/          # Reviewed collection, base-out events, RE matrix, team seasons, Pitch Smart rules, examples
   data-raw/      # Source CSVs, audit, feed manifest, MLB schedules, build scripts
-  inst/extdata/  # Independent official game/player counting fixtures
-  tests/         # Core, personal-season, reviewed-data, real RE24, team-season tests
-  vignettes/     # From scorecard to run value
+  inst/extdata/  # Official counting fixtures, API sample, R/Python parity fixture
+  inst/guides/   # Scorecard data guide
+  tests/testthat # Nine testthat files: normal, edge, and error cases
+  vignettes/     # Coaching a season; From scorecard to run value
 module 5/        # Updated chart, R script, numerical summary, progress PDF
 analysis/        # RE24 plot and script; earlier Week 4 inning plot
 validation/      # Package-check log and verification explanation
@@ -85,8 +102,8 @@ From the repository root:
 
 ```sh
 R CMD build daimondstats
-R CMD INSTALL daimondstats_0.0.5.tar.gz
-R CMD check --no-manual daimondstats_0.0.5.tar.gz
+R CMD INSTALL daimondstats_0.1.0.tar.gz
+R CMD check --as-cran --no-manual daimondstats_0.1.0.tar.gz
 Rscript analysis/re24_by_player.R
 Rscript "module 5/Kim_Module5_batting_stats.R"
 ```
@@ -116,18 +133,18 @@ corrections; agreement is not an independent classifier-accuracy estimate.
 - [Official game totals](daimondstats/inst/extdata/reviewed_game_totals.csv)
 - [Official player totals](daimondstats/inst/extdata/reviewed_player_totals.csv)
 
-The November 8, 2026 `R CMD check --no-manual` of version 0.0.5 on R 4.5.1
-finished with **status OK**, including examples, all five test scripts and the
-vignette rebuild.
-[Check log](validation/R-CMD-check.log). Repository-index access was unavailable;
-PDF manual generation was not checked.
+The November 26, 2026 `R CMD check --as-cran --no-manual` of version 0.1.0 on
+R 4.5.1 ran all examples, the testthat suite, and both vignettes. Its one NOTE is
+CRAN's standard "New submission" message plus the data-guide link, which
+returned 404 only because it was checked before this commit was pushed.
+[Check log](validation/R-CMD-check.log). PDF manual generation was not checked.
 
-## Remaining work
+## Final deliverables
 
-Finish the technical documentation, nontechnical walkthroughs, and
-presentation.
+The technical documentation, how-to guide, and presentation are prepared
+separately for Canvas submission.
 
 AI assistance: An OpenAI assistant helped with implementation, verification,
 tests, documentation, the chart, and the progress update. Claude helped with the
-version 0.0.4 and 0.0.5 base-out data, RE24 plot, vignette, season adapter,
-and tests.
+version 0.0.4 to 0.1.0 base-out data, RE24 plot, vignettes, season adapter,
+youth statistics, pitch-count check, API client, season report, and tests.

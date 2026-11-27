@@ -1,0 +1,29 @@
+{
+  "api_version": 1,
+  "games": [
+    {
+      "scorecard_id": "demo-scorecard-0001",
+      "game_date": "2026-05-02",
+      "league": "little league",
+      "game_pk": null,
+      "home_team": "Demo Owls",
+      "away_team": "Demo Foxes",
+      "scored_side": "home",
+      "plays": [
+        {"team": "Demo Owls", "player": "Alex Demo", "jersey": "7", "lineup_slot": 1,
+         "inning": "1", "play": "single", "confidence": 0.99, "needs_review": false},
+        {"team": "Demo Owls", "player": "Sam Demo", "jersey": "12", "lineup_slot": 2,
+         "inning": "1", "play": "error", "confidence": 0.94, "needs_review": false},
+        {"team": "Demo Owls", "player": "Alex Demo", "jersey": "7", "lineup_slot": 1,
+         "inning": "3", "play": "groundout", "confidence": 0.61, "needs_review": true}
+      ],
+      "pitchers": [
+        {"team": "Demo Owls", "pitcher": "Ava Demo", "outs": 9, "bf": 14,
+         "pitches": 58, "h": 3, "bb": 2, "so": 4, "needs_review": false},
+        {"team": "Demo Owls", "pitcher": "Ben Demo", "outs": 6, "bf": 8,
+         "pitches": 27, "h": 1, "bb": 0, "so": 2, "needs_review": false}
+      ]
+    }
+  ],
+  "next_cursor": "page-2"
+}

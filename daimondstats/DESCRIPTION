@@ -1,31 +1,36 @@
 Package: daimondstats
-Title: Personal Baseball Seasons and Situational Run Value
-Version: 0.0.5
+Title: Analytics for Paper Baseball Scorecards
+Version: 0.1.0
 Authors@R: person("Woohyun", "Kim", email = "woodenkim92@gmail.com",
     role = c("aut", "cre"))
-Description: Compares a personal collection of baseball games with a reference
-    season through stratified resampling and evaluates verified plays using
-    run expectancy. Includes MLB base-out transitions for five reviewed
-    scorecards, a published run expectancy matrix, a run impact plot, and
-    real team seasons built from MLB schedules.
-    Also imports reviewed scorecard CSV exports and calculates
-    batting statistics. Input checks reject unresolved scorecard readings,
-    duplicate reference game identifiers, and unverified event rows.
+Description: Analyzes baseball and softball games kept on paper scorecards
+    and digitized with the dAImond Inning app. Imports scorecard exports or
+    downloads them through the app's API, calculates standard and amateur
+    batting statistics (including on-base percentage with errors), checks
+    youth pitch counts against Pitch Smart guidelines, evaluates verified
+    plays with run expectancy (RE24), compares a personal collection of games
+    with a full team season, and writes a one-page season report. Input
+    checks reject unreviewed scorecard readings instead of guessing.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 4.1.0)
 Imports:
     graphics,
+    grDevices,
+    httr2 (>= 1.0.0),
     jsonlite,
     stats,
     utils
 Suggests:
     knitr,
     rmarkdown,
-    roxygen2
+    roxygen2,
+    testthat (>= 3.0.0),
+    withr
 VignetteBuilder: knitr
 URL: https://kwoolaid725.github.io/msds-457/,
     https://github.com/kwoolaid725/msds-457/tree/main/daimondstats
+Config/testthat/edition: 3
 Config/roxygen2/version: 8.1.1
 Config/roxygen2/markdown: TRUE
